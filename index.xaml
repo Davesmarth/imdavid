@@ -1,0 +1,3079 @@
+<Canvas
+  Width="1440"
+  Height="6856"
+  Background="#FFFFFF"
+  ClipToBounds="True">
+  <Canvas
+    Canvas.Left="470"
+    Canvas.Top="40"
+    Width="862"
+    Height="42"
+    ClipToBounds="True">
+    <Border
+      Canvas.Left="257"
+      Canvas.Top="9"
+      Width="94"
+      Height="23">
+      <TextBlock
+        TextAlignment="Left"
+        VerticalAlignment="Top"
+        LineHeight="23"
+        TextWrapping="Wrap"
+        Text="Our Services"
+        FontFamily="Metropolis-Medium"
+        FontSize="17"
+        FontStretch="Medium"
+        Foreground="#373737" />
+    </Border>
+    <Border
+      Canvas.Left="619"
+      Canvas.Top="9"
+      Width="61"
+      Height="23">
+      <TextBlock
+        TextAlignment="Left"
+        VerticalAlignment="Top"
+        LineHeight="23"
+        TextWrapping="Wrap"
+        Text="Country"
+        FontFamily="Metropolis-Medium"
+        FontSize="17"
+        FontStretch="Medium"
+        Foreground="#373737" />
+    </Border>
+    <Canvas
+      Canvas.Left="751"
+      Width="111"
+      Height="42"
+      ClipToBounds="True">
+      <Canvas
+        Width="111"
+        Height="42"
+        ClipToBounds="True">
+        <Rectangle
+          Width="111"
+          Height="42"
+          RadiusX="11"
+          RadiusY="11"
+          StrokeThickness="2"
+          Stroke="#717CFF" />
+        <Border
+          Canvas.Left="35"
+          Canvas.Top="9"
+          Width="44"
+          Height="23">
+          <TextBlock
+            TextAlignment="Center"
+            VerticalAlignment="Top"
+            LineHeight="23"
+            TextWrapping="Wrap"
+            Text="Apply"
+            FontFamily="Metropolis-Medium"
+            FontSize="17"
+            FontStretch="Medium"
+            Foreground="#505050" />
+        </Border>
+      </Canvas>
+    </Canvas>
+    <Border
+      Canvas.Left="427"
+      Canvas.Top="9"
+      Width="117"
+      Height="23">
+      <TextBlock
+        TextAlignment="Left"
+        VerticalAlignment="Top"
+        LineHeight="23"
+        TextWrapping="Wrap"
+        Text="Responsibilities"
+        FontFamily="Metropolis-Medium"
+        FontSize="17"
+        FontStretch="Medium"
+        Foreground="#373737" />
+    </Border>
+    <Border
+      Canvas.Left="114"
+      Canvas.Top="9"
+      Width="71"
+      Height="23">
+      <TextBlock
+        TextAlignment="Left"
+        VerticalAlignment="Top"
+        LineHeight="23"
+        TextWrapping="Wrap"
+        Text="About Us"
+        FontFamily="Metropolis-Medium"
+        FontSize="17"
+        FontStretch="Medium"
+        Foreground="#373737" />
+    </Border>
+    <Border
+      Canvas.Top="9"
+      Width="47"
+      Height="23">
+      <TextBlock
+        TextAlignment="Left"
+        VerticalAlignment="Top"
+        LineHeight="23"
+        TextWrapping="Wrap"
+        Text="Home"
+        FontFamily="Metropolis-Medium"
+        FontSize="17"
+        FontStretch="Medium"
+        Foreground="#373737" />
+    </Border>
+  </Canvas>
+  <Ellipse
+    Canvas.Left="861"
+    Canvas.Top="356"
+    Width="1030"
+    Height="581"
+    Opacity="0.7024972">
+    <Ellipse.Fill>
+      <LinearGradientBrush
+        StartPoint="0.4956764, 0.007220019"
+        EndPoint="0.40630338, 0.5254168">
+        <LinearGradientBrush.GradientStops>
+          <GradientStop
+            Color="#8471FF"
+            Offset="0" />
+          <GradientStop
+            Color="#717CFF"
+            Offset="1" />
+        </LinearGradientBrush.GradientStops>
+      </LinearGradientBrush>
+    </Ellipse.Fill>
+  </Ellipse>
+  <Path
+    Data=""
+    Stretch="Fill"
+    Canvas.Left="1392"
+    Canvas.Top="1072"
+    Width="1"
+    Height="1"
+    StrokeThickness="1"
+    Stroke="#979797" />
+  <Rectangle
+    Canvas.Top="774"
+    Width="1440"
+    Height="423"
+    Fill="#FAFAFA" />
+  <Canvas
+    Canvas.Left="246"
+    Canvas.Top="1319"
+    Width="949"
+    Height="159"
+    ClipToBounds="True">
+    <Border
+      Canvas.Left="375.5"
+      Width="198"
+      Height="54">
+      <TextBlock
+        TextAlignment="Center"
+        VerticalAlignment="Top"
+        LineHeight="54"
+        TextWrapping="Wrap"
+        Text="Our Services"
+        FontFamily="Metropolis-Bold"
+        FontSize="37"
+        FontStretch="Medium"
+        Foreground="#373737" />
+    </Border>
+    <Border
+      Canvas.Top="79"
+      Width="950"
+      Height="80">
+      <TextBlock
+        TextAlignment="Center"
+        VerticalAlignment="Center"
+        LineHeight="38"
+        TextWrapping="Wrap"
+        FontFamily="Metropolis-Medium"
+        FontSize="22"
+        FontStretch="Medium"
+        Foreground="#7D7D7D">
+        <Run
+          Text="Executive Trade International is an University Application Centre, guiding Bangladeshi students to " />
+        <Run
+          Text="Australian, British, Canadian and Irish universities!" />
+      </TextBlock>
+    </Border>
+  </Canvas>
+  <Border
+    Canvas.Left="573.5"
+    Canvas.Top="829"
+    Width="296"
+    Height="31">
+    <TextBlock
+      Opacity="0.73"
+      TextAlignment="Center"
+      VerticalAlignment="Top"
+      LineHeight="31"
+      TextWrapping="Wrap"
+      Text="FEATURED UNIVERSITIES"
+      FontFamily="Metropolis-Medium"
+      FontSize="23"
+      FontStretch="Medium"
+      Foreground="#373737" />
+  </Border>
+  <Border
+    Canvas.Left="148"
+    Canvas.Top="233"
+    Width="633"
+    Height="154">
+    <TextBlock
+      TextAlignment="Left"
+      VerticalAlignment="Top"
+      LineHeight="74"
+      TextWrapping="Wrap"
+      FontFamily="Metropolis-Black"
+      FontSize="56"
+      FontStretch="Medium"
+      Foreground="#2F2F2F">
+      <Run
+        Text="We Help to " />
+      <Run
+        Text="Build"
+        Foreground="#717CFF" />
+      <LineBreak />
+      <Run
+        Text="Your Dream" />
+    </TextBlock>
+  </Border>
+  <Border
+    Canvas.Left="149"
+    Canvas.Top="402"
+    Width="633"
+    Height="80">
+    <TextBlock
+      TextAlignment="Left"
+      VerticalAlignment="Top"
+      LineHeight="38"
+      TextWrapping="Wrap"
+      FontFamily="Metropolis-Medium"
+      FontSize="22"
+      FontStretch="Medium"
+      Foreground="#7D7D7D">
+      <Run
+        Text="We are  always availed to consult on taking your higher " />
+      <Run
+        Text="education to the next level so you can stay competitive in the " />
+      <Run
+        Text="global world. We welcome the opportunity to work with you " />
+      <Run
+        Text="&quot;today&quot; for &quot;tomorrow's&quot; better career solutions." />
+    </TextBlock>
+  </Border>
+  <Canvas
+    Canvas.Left="148"
+    Canvas.Top="524"
+    Width="262"
+    Height="64"
+    ClipToBounds="True">
+    <Canvas
+      Width="262"
+      Height="64"
+      ClipToBounds="True">
+      <Rectangle
+        Width="262"
+        Height="64"
+        RadiusX="11"
+        RadiusY="11"
+        Fill="#717CFF" />
+      <Canvas
+        Canvas.Left="201.37"
+        Canvas.Top="19"
+        Width="28.15"
+        Height="26"
+        ClipToBounds="True">
+        <Path
+          Data="M1.17287 9.30853L14.2738 9.30853L8.55019 14.5952C8.09277 15.0177 8.09277 15.711 8.55019 16.1335C9.00761 16.556 9.74651 16.556 10.2039 16.1335L17.9331 8.99436C18.3905 8.57186 18.3905 7.88936 17.9331 7.46686L10.2157 0.316859C9.99653 0.114002 9.69903 0 9.38879 0C9.07854 0 8.78104 0.114002 8.56192 0.316859C8.1045 0.739359 8.1045 1.42186 8.56192 1.84436L14.2738 7.14186L1.17287 7.14186C0.527789 7.14186 0 7.62936 0 8.22519C0 8.82103 0.527789 9.30853 1.17287 9.30853Z"
+          Stretch="Fill"
+          Canvas.Left="4.94"
+          Canvas.Top="4.77"
+          Width="18.28"
+          Height="16.45"
+          Fill="#FFFFFF" />
+      </Canvas>
+      <Border
+        Canvas.Left="34"
+        Canvas.Top="12"
+        Width="139"
+        Height="40">
+        <TextBlock
+          TextAlignment="Left"
+          VerticalAlignment="Top"
+          LineHeight="40"
+          TextWrapping="Wrap"
+          Text="Apply Online"
+          FontFamily="Metropolis-Medium"
+          FontSize="22"
+          FontStretch="Medium"
+          Foreground="#FFFFFF" />
+      </Border>
+    </Canvas>
+  </Canvas>
+  <Canvas
+    Canvas.Top="2466"
+    Width="1440"
+    Height="1120"
+    ClipToBounds="True">
+    <Rectangle
+      Width="1440"
+      Height="1120"
+      Fill="#FAFAFA" />
+    <Canvas
+      Canvas.Left="607"
+      Canvas.Top="932"
+      Width="226"
+      Height="64"
+      ClipToBounds="True">
+      <Rectangle
+        Width="226"
+        Height="64"
+        RadiusX="11"
+        RadiusY="11"
+        Fill="#717CFF" />
+      <Canvas
+        Canvas.Left="165.37"
+        Canvas.Top="19"
+        Width="28.15"
+        Height="26"
+        ClipToBounds="True">
+        <Path
+          Data="M1.17287 9.30853L14.2738 9.30853L8.55019 14.5952C8.09277 15.0177 8.09277 15.711 8.55019 16.1335C9.0076 16.556 9.74651 16.556 10.2039 16.1335L17.9331 8.99436C18.3905 8.57186 18.3905 7.88936 17.9331 7.46686L10.2157 0.316859C9.99653 0.114002 9.69903 0 9.38879 0C9.07854 0 8.78104 0.114002 8.56192 0.316859C8.1045 0.739359 8.1045 1.42186 8.56192 1.84436L14.2738 7.14186L1.17287 7.14186C0.527789 7.14186 0 7.62936 0 8.22519C0 8.82103 0.527789 9.30853 1.17287 9.30853Z"
+          Stretch="Fill"
+          Canvas.Left="4.94"
+          Canvas.Top="4.77"
+          Width="18.28"
+          Height="16.45"
+          Fill="#FFFFFF" />
+      </Canvas>
+      <Border
+        Canvas.Left="34"
+        Canvas.Top="12"
+        Width="92"
+        Height="40">
+        <TextBlock
+          TextAlignment="Left"
+          VerticalAlignment="Top"
+          LineHeight="40"
+          TextWrapping="Wrap"
+          Text="Join Here"
+          FontFamily="Metropolis-Medium"
+          FontSize="22"
+          FontStretch="Medium"
+          Foreground="#FFFFFF" />
+      </Border>
+    </Canvas>
+    <Canvas
+      Canvas.Left="246"
+      Canvas.Top="102"
+      Width="949"
+      Height="159"
+      ClipToBounds="True">
+      <Border
+        Canvas.Left="430"
+        Width="89"
+        Height="54">
+        <TextBlock
+          TextAlignment="Center"
+          VerticalAlignment="Top"
+          LineHeight="54"
+          TextWrapping="Wrap"
+          Text="News"
+          FontFamily="Metropolis-Bold"
+          FontSize="37"
+          FontStretch="Medium"
+          Foreground="#373737" />
+      </Border>
+      <Border
+        Canvas.Top="79"
+        Width="950"
+        Height="80">
+        <TextBlock
+          TextAlignment="Center"
+          VerticalAlignment="Center"
+          LineHeight="38"
+          TextWrapping="Wrap"
+          FontFamily="Metropolis-Medium"
+          FontSize="22"
+          FontStretch="Medium"
+          Foreground="#7D7D7D">
+          <Run
+            Text="Sunt autem nusquam hoc epicurus in gravissimo bello animadversionis metu degendae praesidia " />
+          <Run
+            Text="firmissima. Torquatos nostros? quos tu paulo ante cum teneam sententiam, quid bonum esse " />
+          <Run
+            Text="vult." />
+        </TextBlock>
+      </Border>
+    </Canvas>
+    <Canvas
+      Canvas.Left="148"
+      Canvas.Top="380"
+      Width="344"
+      Height="406"
+      ClipToBounds="True">
+      <Rectangle
+        Width="344"
+        Height="406"
+        RadiusX="10"
+        RadiusY="10"
+        Fill="#FFFFFF">
+        <Rectangle.Effect>
+          <DropShadowEffect
+            Color="#1A000000"
+            Opacity="0.1"
+            BlurRadius="42"
+            Direction="-90"
+            ShadowDepth="6" />
+        </Rectangle.Effect>
+      </Rectangle>
+      <Rectangle
+        Width="344"
+        Height="224"
+        RadiusX="10"
+        RadiusY="10">
+        <Rectangle.Fill>
+          <ImageBrush
+            Stretch="UniformToFill" />
+        </Rectangle.Fill>
+      </Rectangle>
+      <Border
+        Canvas.Left="26"
+        Canvas.Top="288"
+        Width="292"
+        Height="56">
+        <TextBlock
+          TextAlignment="Left"
+          VerticalAlignment="Top"
+          LineHeight="29"
+          TextWrapping="Wrap"
+          FontFamily="Metropolis-Bold"
+          FontSize="22"
+          FontStretch="Medium"
+          Foreground="#252525">
+          <Run
+            Text="Come On In. The Water’s " />
+          <Run
+            Text="Fine (Mostly)." />
+        </TextBlock>
+      </Border>
+      <Canvas
+        Canvas.Left="23"
+        Canvas.Top="252"
+        Width="129"
+        Height="21"
+        ClipToBounds="True">
+        <Border
+          Canvas.Left="33"
+          Width="87"
+          Height="21">
+          <TextBlock
+            TextAlignment="Left"
+            VerticalAlignment="Top"
+            LineHeight="21"
+            TextWrapping="Wrap"
+            Text="17 Apr 2020"
+            FontFamily="Metropolis-SemiBold"
+            FontSize="16"
+            FontStretch="Medium"
+            Foreground="#565656" />
+        </Border>
+        <Canvas
+          Width="21"
+          Height="21"
+          ClipToBounds="True">
+          <Canvas
+            Canvas.Left="3.5"
+            Canvas.Top="2.62"
+            Width="14.44"
+            Height="15.2"
+            ClipToBounds="True">
+            <Path
+              Data="M1.44375 0L12.9937 0C13.7911 0 14.4375 0.680409 14.4375 1.51974L14.4375 12.9178C14.4375 13.7571 13.7911 14.4375 12.9937 14.4375L1.44375 14.4375C0.646389 14.4375 0 13.7571 0 12.9178L0 1.51974C0 0.680409 0.646389 0 1.44375 0Z"
+              Stretch="Fill"
+              Canvas.Top="0.76"
+              Width="14.44"
+              Height="14.44" />
+            <Rectangle
+              Canvas.Left="1.44"
+              Canvas.Top="2.28"
+              Width="11.55"
+              Height="11.4" />
+            <Rectangle
+              Canvas.Left="2.89"
+              Width="1.44"
+              Height="3.04" />
+            <Rectangle
+              Canvas.Left="10.11"
+              Width="1.44"
+              Height="3.04" />
+            <Rectangle
+              Canvas.Left="0.72"
+              Canvas.Top="4.56"
+              Width="12.99"
+              Height="1.52" />
+          </Canvas>
+        </Canvas>
+      </Canvas>
+    </Canvas>
+    <Canvas
+      Canvas.Left="538"
+      Canvas.Top="380"
+      Width="344"
+      Height="406"
+      ClipToBounds="True">
+      <Rectangle
+        Width="344"
+        Height="406"
+        RadiusX="10"
+        RadiusY="10"
+        Fill="#FFFFFF">
+        <Rectangle.Effect>
+          <DropShadowEffect
+            Color="#1A000000"
+            Opacity="0.1"
+            BlurRadius="42"
+            Direction="-90"
+            ShadowDepth="6" />
+        </Rectangle.Effect>
+      </Rectangle>
+      <Rectangle
+        Width="344"
+        Height="224"
+        RadiusX="10"
+        RadiusY="10">
+        <Rectangle.Fill>
+          <ImageBrush
+            Stretch="UniformToFill" />
+        </Rectangle.Fill>
+      </Rectangle>
+      <Border
+        Canvas.Left="26"
+        Canvas.Top="288"
+        Width="292"
+        Height="56">
+        <TextBlock
+          TextAlignment="Left"
+          VerticalAlignment="Top"
+          LineHeight="29"
+          TextWrapping="Wrap"
+          FontFamily="Metropolis-Bold"
+          FontSize="22"
+          FontStretch="Medium"
+          Foreground="#252525">
+          <Run
+            Text="Trump Lays Plans to Reverse " />
+          <Run
+            Text="Obama’s Climate Change " />
+          <Run
+            Text="Legacy" />
+        </TextBlock>
+      </Border>
+      <Canvas
+        Canvas.Left="23"
+        Canvas.Top="252"
+        Width="129"
+        Height="21"
+        ClipToBounds="True">
+        <Border
+          Canvas.Left="33"
+          Width="87"
+          Height="21">
+          <TextBlock
+            TextAlignment="Left"
+            VerticalAlignment="Top"
+            LineHeight="21"
+            TextWrapping="Wrap"
+            Text="17 Apr 2020"
+            FontFamily="Metropolis-SemiBold"
+            FontSize="16"
+            FontStretch="Medium"
+            Foreground="#565656" />
+        </Border>
+        <Canvas
+          Width="21"
+          Height="21"
+          ClipToBounds="True">
+          <Canvas
+            Canvas.Left="3.5"
+            Canvas.Top="2.62"
+            Width="14.44"
+            Height="15.2"
+            ClipToBounds="True">
+            <Path
+              Data="M1.44375 0L12.9937 0C13.7911 0 14.4375 0.680409 14.4375 1.51974L14.4375 12.9178C14.4375 13.7571 13.7911 14.4375 12.9937 14.4375L1.44375 14.4375C0.646389 14.4375 0 13.7571 0 12.9178L0 1.51974C0 0.680409 0.646389 0 1.44375 0Z"
+              Stretch="Fill"
+              Canvas.Top="0.76"
+              Width="14.44"
+              Height="14.44" />
+            <Rectangle
+              Canvas.Left="1.44"
+              Canvas.Top="2.28"
+              Width="11.55"
+              Height="11.4" />
+            <Rectangle
+              Canvas.Left="2.89"
+              Width="1.44"
+              Height="3.04" />
+            <Rectangle
+              Canvas.Left="10.11"
+              Width="1.44"
+              Height="3.04" />
+            <Rectangle
+              Canvas.Left="0.72"
+              Canvas.Top="4.56"
+              Width="12.99"
+              Height="1.52" />
+          </Canvas>
+        </Canvas>
+      </Canvas>
+    </Canvas>
+    <Canvas
+      Canvas.Left="928"
+      Canvas.Top="380"
+      Width="344"
+      Height="406"
+      ClipToBounds="True">
+      <Rectangle
+        Width="344"
+        Height="406"
+        RadiusX="10"
+        RadiusY="10"
+        Fill="#FFFFFF">
+        <Rectangle.Effect>
+          <DropShadowEffect
+            Color="#1A000000"
+            Opacity="0.1"
+            BlurRadius="42"
+            Direction="-90"
+            ShadowDepth="6" />
+        </Rectangle.Effect>
+      </Rectangle>
+      <Rectangle
+        Width="344"
+        Height="224"
+        RadiusX="10"
+        RadiusY="10">
+        <Rectangle.Fill>
+          <ImageBrush
+            Stretch="UniformToFill" />
+        </Rectangle.Fill>
+      </Rectangle>
+      <Border
+        Canvas.Left="26"
+        Canvas.Top="288"
+        Width="292"
+        Height="56">
+        <TextBlock
+          TextAlignment="Left"
+          VerticalAlignment="Top"
+          LineHeight="29"
+          TextWrapping="Wrap"
+          FontFamily="Metropolis-Bold"
+          FontSize="22"
+          FontStretch="Medium"
+          Foreground="#252525">
+          <Run
+            Text="How a Little Bit of Hydra " />
+          <Run
+            Text="Regrows a Whole Animal" />
+        </TextBlock>
+      </Border>
+      <Canvas
+        Canvas.Left="23"
+        Canvas.Top="252"
+        Width="129"
+        Height="21"
+        ClipToBounds="True">
+        <Border
+          Canvas.Left="33"
+          Width="87"
+          Height="21">
+          <TextBlock
+            TextAlignment="Left"
+            VerticalAlignment="Top"
+            LineHeight="21"
+            TextWrapping="Wrap"
+            Text="17 Apr 2020"
+            FontFamily="Metropolis-SemiBold"
+            FontSize="16"
+            FontStretch="Medium"
+            Foreground="#565656" />
+        </Border>
+        <Canvas
+          Width="21"
+          Height="21"
+          ClipToBounds="True">
+          <Canvas
+            Canvas.Left="3.5"
+            Canvas.Top="2.62"
+            Width="14.44"
+            Height="15.2"
+            ClipToBounds="True">
+            <Path
+              Data="M1.44375 0L12.9937 0C13.7911 0 14.4375 0.680409 14.4375 1.51974L14.4375 12.9178C14.4375 13.7571 13.7911 14.4375 12.9937 14.4375L1.44375 14.4375C0.646389 14.4375 0 13.7571 0 12.9178L0 1.51974C0 0.680409 0.646389 0 1.44375 0Z"
+              Stretch="Fill"
+              Canvas.Top="0.76"
+              Width="14.44"
+              Height="14.44" />
+            <Rectangle
+              Canvas.Left="1.44"
+              Canvas.Top="2.28"
+              Width="11.55"
+              Height="11.4" />
+            <Rectangle
+              Canvas.Left="2.89"
+              Width="1.44"
+              Height="3.04" />
+            <Rectangle
+              Canvas.Left="10.11"
+              Width="1.44"
+              Height="3.04" />
+            <Rectangle
+              Canvas.Left="0.72"
+              Canvas.Top="4.56"
+              Width="12.99"
+              Height="1.52" />
+          </Canvas>
+        </Canvas>
+      </Canvas>
+    </Canvas>
+  </Canvas>
+  <Rectangle
+    Canvas.Left="470"
+    Canvas.Top="82"
+    Width="23"
+    Height="3"
+    RadiusX="2"
+    RadiusY="2"
+    Fill="#717CFF" />
+  <Rectangle
+    Canvas.Top="6510"
+    Width="1440"
+    Height="346"
+    Fill="#717CFF" />
+  <Image
+    Canvas.Left="144"
+    Canvas.Top="6574"
+    Width="160"
+    Height="57" />
+  <Canvas
+    Canvas.Left="617"
+    Canvas.Top="6580"
+    Width="161"
+    Height="196"
+    ClipToBounds="True">
+    <Border
+      Width="162"
+      Height="196">
+      <TextBlock
+        TextAlignment="Left"
+        VerticalAlignment="Top"
+        LineHeight="49"
+        TextWrapping="Wrap"
+        FontFamily="Metropolis-Medium"
+        FontSize="18"
+        FontStretch="Medium"
+        Foreground="#EEEEEE">
+        <Run
+          Text="About Us" />
+        <LineBreak />
+        <Run
+          Text="Responsibilities" />
+        <LineBreak />
+        <Run
+          Text="Our Services" />
+        <LineBreak />
+        <Run
+          Text="Contact" />
+      </TextBlock>
+    </Border>
+  </Canvas>
+  <Border
+    Canvas.Left="144"
+    Canvas.Top="6657"
+    Width="344"
+    Height="64">
+    <TextBlock
+      TextAlignment="Left"
+      VerticalAlignment="Top"
+      LineHeight="32"
+      TextWrapping="Wrap"
+      FontFamily="Metropolis-Medium"
+      FontSize="18"
+      FontStretch="Medium"
+      Foreground="#EEEEEE">
+      <Run
+        Text="Concord Royal Court (3rd floor)" />
+      <LineBreak />
+      <Run
+        Text="Dhanmondi, Dhaka 1209, Bangladesh." />
+    </TextBlock>
+  </Border>
+  <Border
+    Canvas.Left="144"
+    Canvas.Top="6779"
+    Width="299"
+    Height="32">
+    <TextBlock
+      TextAlignment="Left"
+      VerticalAlignment="Top"
+      LineHeight="32"
+      TextWrapping="Wrap">
+      <Run
+        Text="©" />
+      <Run
+        Text=" 2020 Executive Trade International."
+        FontFamily="Metropolis-Medium" />
+    </TextBlock>
+  </Border>
+  <Canvas
+    Canvas.Left="884"
+    Canvas.Top="6581"
+    Width="157"
+    Height="197"
+    ClipToBounds="True">
+    <Border
+      Canvas.Top="0.2"
+      Width="158"
+      Height="196">
+      <TextBlock
+        TextAlignment="Left"
+        VerticalAlignment="Top"
+        LineHeight="49"
+        TextWrapping="Wrap"
+        FontFamily="Metropolis-Medium"
+        FontSize="18"
+        FontStretch="Medium"
+        Foreground="#EEEEEE">
+        <Run
+          Text="Disclaimer" />
+        <LineBreak />
+        <Run
+          Text="Testimonials" />
+        <LineBreak />
+        <Run
+          Text="Privacy Policy" />
+        <LineBreak />
+        <Run
+          Text="Terms of Service" />
+      </TextBlock>
+    </Border>
+  </Canvas>
+  <Canvas
+    Canvas.Left="1193"
+    Canvas.Top="6745"
+    Width="98"
+    Height="17"
+    ClipToBounds="True">
+    <Canvas
+      Canvas.Top="1"
+      Width="10"
+      Height="16"
+      ClipToBounds="True">
+      <Path
+        Data="M8.8 0.999L8.8 2.201C8.8 2.75273 8.35273 3.2 7.801 3.2C7.14211 3.2 6.4 3.2 6.4 3.2C5.848 3.2 5.6 3.848 5.6 4.4C5.6 4.4 5.6 6.4 5.6 6.4L7.001 6.4Q7.09939 6.4 7.19589 6.4192Q7.2924 6.43839 7.3833 6.47604Q7.4742 6.5137 7.55601 6.56836Q7.63782 6.62303 7.7074 6.6926Q7.77697 6.76217 7.83164 6.84399Q7.8863 6.9258 7.92395 7.0167Q7.96161 7.1076 7.9808 7.2041Q8 7.30061 8 7.399L8 8.601Q8 8.69939 7.9808 8.79589Q7.96161 8.8924 7.92395 8.9833Q7.8863 9.0742 7.83164 9.15601Q7.77697 9.23783 7.7074 9.3074Q7.63782 9.37697 7.55601 9.43164Q7.4742 9.4863 7.3833 9.52396Q7.2924 9.56161 7.19589 9.5808Q7.09939 9.6 7.001 9.6L5.6 9.6L5.6 15.001Q5.6 15.0994 5.5808 15.1959Q5.56161 15.2924 5.52396 15.3833Q5.4863 15.4742 5.43164 15.556Q5.37697 15.6378 5.3074 15.7074Q5.23782 15.777 5.15601 15.8316Q5.0742 15.8863 4.9833 15.924Q4.8924 15.9616 4.79589 15.9808Q4.69939 16 4.601 16L3.399 16Q3.30061 16 3.2041 15.9808Q3.1076 15.9616 3.0167 15.924Q2.9258 15.8863 2.84399 15.8316Q2.76217 15.777 2.6926 15.7074Q2.62303 15.6378 2.56836 15.556Q2.5137 15.4742 2.47604 15.3833Q2.43839 15.2924 2.4192 15.1959Q2.4 15.0994 2.4 15.001L2.4 9.6L0.999 9.6Q0.900607 9.6 0.804105 9.5808Q0.707602 9.56161 0.616699 9.52395Q0.525796 9.4863 0.443985 9.43164Q0.362175 9.37697 0.2926 9.3074Q0.223026 9.23782 0.168362 9.15601Q0.113698 9.0742 0.0760443 8.9833Q0.038391 8.8924 0.0191955 8.79589Q0 8.69939 0 8.601L0 7.399Q0 7.30061 0.0191955 7.2041Q0.038391 7.1076 0.0760443 7.0167Q0.113698 6.9258 0.168362 6.84399Q0.223026 6.76217 0.2926 6.6926Q0.362175 6.62303 0.443985 6.56836Q0.525796 6.5137 0.616699 6.47604Q0.707602 6.43839 0.804105 6.4192Q0.900607 6.4 0.999 6.4C1.65789 6.4 2.4 6.4 2.4 6.4C2.4 6.4 2.4 3.2 2.4 3.2C2.4 1.43269 3.83269 3.55271e-16 5.6 0L7.801 0C8.35273 0 8.8 0.447268 8.8 0.999Z"
+        Stretch="Fill"
+        Canvas.Left="0.6"
+        Width="8.8"
+        Height="16"
+        Fill="#FFFFFF" />
+    </Canvas>
+    <Canvas
+      Canvas.Left="38"
+      Canvas.Top="1"
+      Width="16"
+      Height="14"
+      ClipToBounds="True">
+      <Canvas
+        Width="16"
+        Height="13.67"
+        ClipToBounds="True">
+        <Path
+          Data="M5.98352 3.07177C5.98352 3.07177 3.51123 3.64511 0.752482 0.420334C0.752482 0.420334 -0.322371 2.53434 1.54088 3.82403C1.54088 3.82403 0.932049 3.93156 0.429899 3.57349C0.429899 3.57349 0.214843 5.40061 2.43638 6.11718L1.254 6.11718C1.254 6.11718 1.57679 7.58623 3.65467 7.9086C3.65467 7.9086 2.79487 9.05507 0 8.98346C0 8.98346 1.57679 10.2015 3.97747 10.1656C3.97747 10.1656 8.4199 10.3807 10.5339 5.36449C11.0537 4.13089 10.9997 2.96424 10.9638 2.39069L12.3253 1.17282L10.9638 1.42357C10.9638 1.42357 11.8954 0.742917 12.0032 0.0979628L10.4982 0.707004C10.4982 0.707004 9.36958 -0.314085 7.45257 0.0979628C7.45236 0.0979628 5.69706 0.456247 5.98352 3.07177Z"
+          Stretch="Fill"
+          Canvas.Left="1.83"
+          Canvas.Top="1.76"
+          Width="12.33"
+          Height="10.17" />
+        <Path
+          Data="M9.211 0.114796C10.5075 -0.140114 11.6718 0.0448076 12.6524 0.518066C12.7059 0.543873 12.7575 0.56989 12.8074 0.596013L13.7683 0.207146C14.7579 -0.193344 15.8038 0.644332 15.6299 1.69698C16.1011 2.21467 16.1759 3.07967 15.539 3.64935L14.5535 4.53091C14.5656 5.61489 14.4169 6.58677 13.9604 7.6701C13.1466 9.60112 11.9797 11.0534 10.552 12.0636C9.54287 12.7776 8.46317 13.2309 7.37506 13.4749C6.67176 13.6326 6.07512 13.6818 5.63612 13.6708C4.29601 13.686 3.06162 13.4025 1.96028 12.9204C1.30499 12.6336 0.82359 12.3372 0.534289 12.1137C-0.511581 11.3058 0.0838452 9.63153 1.40501 9.66538C1.65863 9.67188 1.89619 9.66816 2.11837 9.65527C1.69768 9.15649 1.47438 8.65494 1.38369 8.24222C1.35219 8.09888 1.34433 7.95683 1.3572 7.81967C1.26989 7.71434 1.18851 7.60505 1.11307 7.49199C0.578511 6.69082 0.420788 5.8672 0.465062 5.16395C0.470173 5.09452 0.470173 5.09452 0.474776 5.05295C0.498818 4.84869 0.56444 4.66432 0.660803 4.50463C0.377714 3.60281 0.441976 2.69596 0.708677 1.84216C0.79542 1.56446 0.886741 1.34727 0.960851 1.20151C1.40241 0.333057 2.58481 0.192109 3.21815 0.932432C4.21534 2.09808 5.20031 2.79114 6.13971 3.12697C6.25625 3.16864 6.36821 3.20364 6.47532 3.23265C6.77435 1.34515 8.01677 0.216253 9.211 0.114796Z"
+          Stretch="Fill"
+          Width="16"
+          Height="13.67" />
+        <Path
+          Data="M0.00297204 0.000129472C0.00324571 0.000105447 0.00181558 0.000272048 0 0.000508627L0.00297204 0.000129472Z"
+          Stretch="Fill"
+          Canvas.Left="2.82"
+          Canvas.Top="4.13"
+          Width="0.68"
+          Height="0.68" />
+      </Canvas>
+    </Canvas>
+    <Canvas
+      Canvas.Left="82"
+      Width="16"
+      Height="17"
+      ClipToBounds="True">
+      <Canvas
+        Canvas.Top="0.67"
+        Width="16"
+        Height="16"
+        ClipToBounds="True">
+        <Path
+          Data="M4.12903 0C1.87097 0 0 1.83871 0 4.12903C0 6.41935 1.83871 8.25806 4.12903 8.25806C6.41935 8.25806 8.25806 6.3871 8.25806 4.12903C8.25806 1.87097 6.3871 0 4.12903 0Z"
+          Stretch="Fill"
+          Canvas.Left="3.87"
+          Canvas.Top="3.84"
+          Width="8.26"
+          Height="8.26" />
+        <Path
+          Data="M2.64516 5.29032C1.19355 5.29032 0 4.09677 0 2.64516C0 1.19355 1.19355 0 2.64516 0C4.09677 0 5.29032 1.19355 5.29032 2.64516C5.29032 4.09677 4.09677 5.29032 2.64516 5.29032Z"
+          Stretch="Fill"
+          Canvas.Left="5.35"
+          Canvas.Top="5.32"
+          Width="5.29"
+          Height="5.29" />
+        <Ellipse
+          Canvas.Left="11.35"
+          Canvas.Top="2.81"
+          Width="1.87"
+          Height="1.87" />
+        <Path
+          Data="M14.7097 1.32258C13.871 0.451613 12.6774 0 11.3226 0L4.67742 0C1.87097 0 0 1.87097 0 4.67742L0 11.2903C0 12.6774 0.451613 13.871 1.35484 14.7419C2.22581 15.5806 3.3871 16 4.70968 16L11.2903 16C12.6774 16 13.8387 15.5484 14.6774 14.7419C15.5484 13.9032 16 12.7097 16 11.3226L16 4.67742C16 3.32258 15.5484 2.16129 14.7097 1.32258Z"
+          Stretch="Fill"
+          Width="16"
+          Height="16" />
+        <Path
+          Data="M13.0968 9.83871C13.0968 10.8387 12.7419 11.6452 12.1613 12.1935C11.5806 12.7419 10.7742 13.0323 9.80645 13.0323L3.22581 13.0323C2.25806 13.0323 1.45161 12.7419 0.870968 12.1935C0.290323 11.6129 0 10.8065 0 9.80645L0 3.19355C0 2.22581 0.290323 1.41935 0.870968 0.83871C1.41935 0.290323 2.25806 0 3.22581 0L9.87097 0C10.8387 0 11.6452 0.290323 12.2258 0.870968C12.7742 1.45161 13.0968 2.25806 13.0968 3.19355L13.0968 9.83871L13.0968 9.83871Z"
+          Stretch="Fill"
+          Canvas.Left="1.48"
+          Canvas.Top="1.48"
+          Width="13.1"
+          Height="13.03" />
+      </Canvas>
+    </Canvas>
+  </Canvas>
+  <Image
+    Canvas.Left="149"
+    Canvas.Top="41"
+    Width="146"
+    Height="52" />
+  <Image
+    Canvas.Left="842"
+    Canvas.Top="209"
+    Width="470"
+    Height="565" />
+  <Canvas
+    Canvas.Left="158"
+    Canvas.Top="694"
+    Width="13"
+    Height="21"
+    ClipToBounds="True">
+    <Path
+      Data="M2.57891 20.4514L6.88452 20.4514L6.88452 11.8296L10.7639 11.8296L11.1901 7.54524L6.88452 7.54524L6.88452 5.38194C6.88452 4.78748 7.36642 4.30556 7.96091 4.30556L11.1901 4.30556L11.1901 0L7.96091 0C4.98846 0 2.57891 2.40958 2.57891 5.38194L2.57891 7.54524L0.426132 7.54524L0 11.8296L2.57891 11.8296L2.57891 20.4514Z"
+      Stretch="Fill"
+      Canvas.Left="0.9"
+      Canvas.Top="0.27"
+      Width="11.19"
+      Height="20.45"
+      Fill="#3C5B9A" />
+  </Canvas>
+  <Canvas
+    Canvas.Left="194"
+    Canvas.Top="689"
+    Width="31"
+    Height="31"
+    ClipToBounds="True">
+    <Canvas
+      Canvas.Left="5.17"
+      Canvas.Top="6.67"
+      Width="20.67"
+      Height="17.66"
+      ClipToBounds="True">
+      <Path
+        Data="M7.72871 3.9677C7.72871 3.9677 4.53534 4.70826 0.971956 0.542931C0.971956 0.542931 -0.416396 3.27352 1.9903 4.93938C1.9903 4.93938 1.2039 5.07827 0.555286 4.61576C0.555286 4.61576 0.277506 6.97579 3.14699 7.90136L1.61974 7.90136C1.61974 7.90136 2.03669 9.79888 4.72062 10.2153C4.72062 10.2153 3.61004 11.6961 0 11.6036C0 11.6036 2.03669 13.177 5.13756 13.1306C5.13756 13.1306 10.8757 13.4084 13.6063 6.92913C14.2777 5.33574 14.208 3.82881 14.1616 3.08797L15.9202 1.51489L14.1616 1.83878C14.1616 1.83878 15.3649 0.959601 15.5041 0.126535L13.5602 0.913213C13.5602 0.913213 12.1024 -0.405694 9.62624 0.126535C9.62596 0.126535 7.3587 0.589319 7.72871 3.9677Z"
+        Stretch="Fill"
+        Canvas.Left="2.36"
+        Canvas.Top="2.28"
+        Width="15.92"
+        Height="13.13" />
+      <Path
+        Data="M11.8975 0.148278C13.5721 -0.180981 15.0761 0.0578764 16.3427 0.669169C16.4118 0.702502 16.4785 0.736108 16.5429 0.76985L17.784 0.267563C19.0623 -0.249735 20.4132 0.832262 20.1886 2.19193C20.7973 2.86062 20.8938 3.97791 20.0712 4.71374L18.7982 5.85242C18.8138 7.25257 18.6218 8.50791 18.0322 9.90722C16.981 12.4014 15.4737 14.2773 13.6296 15.5821C12.3262 16.5043 10.9316 17.0899 9.52612 17.4051C8.61769 17.6088 7.84703 17.6723 7.27999 17.6581C5.54901 17.6777 3.95459 17.3116 2.53203 16.6889C1.68561 16.3184 1.0638 15.9356 0.690123 15.6469C-0.660792 14.6033 0.1083 12.4407 1.8148 12.4844C2.1424 12.4928 2.44925 12.488 2.73623 12.4714C2.19284 11.8271 1.9044 11.1793 1.78727 10.6462C1.74658 10.4611 1.73643 10.2776 1.75305 10.1004C1.64028 9.96435 1.53516 9.82318 1.43772 9.67715C0.747243 8.64231 0.543518 7.57847 0.600705 6.6701C0.607307 6.58043 0.607307 6.58043 0.613253 6.52672C0.644306 6.26289 0.729069 6.02474 0.853537 5.81848C0.48788 4.65362 0.570885 3.48229 0.915374 2.37945C1.02742 2.02076 1.14537 1.74022 1.2411 1.55195C1.81145 0.430199 3.33872 0.248141 4.15677 1.20439C5.44482 2.71002 6.71707 3.60523 7.93045 4.03901C8.08099 4.09282 8.22561 4.13803 8.36396 4.17551C8.7502 1.73749 10.355 0.279327 11.8975 0.148278Z"
+        Stretch="Fill"
+        Width="20.67"
+        Height="17.66" />
+      <Path
+        Data="M0.00383888 0.000167235C0.00419238 0.000136202 0.00234513 0.000351396 0 0.000656976L0.00383888 0.000167235Z"
+        Stretch="Fill"
+        Canvas.Left="3.65"
+        Canvas.Top="5.33"
+        Width="0.88"
+        Height="0.88" />
+    </Canvas>
+  </Canvas>
+  <Canvas
+    Canvas.Left="240"
+    Canvas.Top="689"
+    Width="31"
+    Height="31"
+    ClipToBounds="True">
+    <Canvas
+      Canvas.Left="5.17"
+      Canvas.Top="3.88"
+      Width="21.31"
+      Height="22.43"
+      ClipToBounds="True">
+      <Path
+        Data="M6.39375 0L14.9187 0C18.4499 -4.9814e-16 21.3125 3.01324 21.3125 6.73026L21.3125 15.7039C21.3125 19.421 18.4499 22.4342 14.9187 22.4342L6.39375 22.4342C2.86258 22.4342 4.73233e-16 19.421 0 15.7039L0 6.73026C-4.73233e-16 3.01324 2.86258 4.9814e-16 6.39375 0Z"
+        Stretch="Fill"
+        Width="21.31"
+        Height="22.43" />
+      <Path
+        Data="M4.2625 0C1.90839 0 -4.73233e-16 2.00883 0 4.48684L0 13.4605C0 15.9385 1.90839 17.9474 4.2625 17.9474L12.7875 17.9474C15.1416 17.9474 17.05 15.9385 17.05 13.4605L17.05 4.48684C17.05 2.00883 15.1416 -4.9814e-16 12.7875 0L4.2625 0Z"
+        Stretch="Fill"
+        Canvas.Left="2.13"
+        Canvas.Top="2.24"
+        Width="17.05"
+        Height="17.95" />
+      <Path
+        Data="M5.32813 11.2171C2.38548 11.2171 0 8.70607 0 5.60855C0 2.51103 2.38548 0 5.32813 0C8.27077 0 10.6563 2.51103 10.6563 5.60855C10.6563 8.70607 8.27077 11.2171 5.32813 11.2171Z"
+        Stretch="Fill"
+        Canvas.Left="5.33"
+        Canvas.Top="5.61"
+        Width="10.66"
+        Height="11.22" />
+      <Path
+        Data="M3.19687 6.73026C4.96246 6.73026 6.39375 5.22364 6.39375 3.36513C6.39375 1.50662 4.96246 0 3.19687 0C1.43129 0 0 1.50662 0 3.36513C0 5.22364 1.43129 6.73026 3.19687 6.73026Z"
+        Stretch="Fill"
+        Canvas.Left="7.46"
+        Canvas.Top="7.85"
+        Width="6.39"
+        Height="6.73" />
+      <Ellipse
+        Canvas.Left="14.92"
+        Canvas.Top="4.49"
+        Width="2.13"
+        Height="2.24" />
+    </Canvas>
+  </Canvas>
+  <Canvas
+    Canvas.Left="128"
+    Canvas.Top="942"
+    Width="1196"
+    Height="80"
+    ClipToBounds="True">
+    <Image
+      Canvas.Top="6"
+      Width="225"
+      Height="67.61" />
+    <Image
+      Canvas.Left="299"
+      Canvas.Top="8"
+      Width="250"
+      Height="63.95" />
+    <Image
+      Canvas.Left="623"
+      Width="224"
+      Height="79.21" />
+    <Image
+      Canvas.Left="921"
+      Canvas.Top="9"
+      Width="275"
+      Height="62.24" />
+  </Canvas>
+  <Canvas
+    Canvas.Left="146"
+    Canvas.Top="1582"
+    Width="344"
+    Height="351"
+    ClipToBounds="True">
+    <Rectangle
+      Width="344"
+      Height="351"
+      RadiusX="15"
+      RadiusY="15"
+      StrokeThickness="3"
+      Stroke="#717CFF"
+      Fill="#FFFFFF" />
+    <Canvas
+      Canvas.Left="31"
+      Canvas.Top="135"
+      Width="296"
+      Height="186"
+      ClipToBounds="True">
+      <Canvas
+        Canvas.Top="160"
+        Width="133"
+        Height="26"
+        ClipToBounds="True">
+        <Canvas
+          Canvas.Top="0.85"
+          Width="133"
+          Height="25"
+          ClipToBounds="True">
+          <Border
+            Canvas.Top="0.77"
+            Width="91"
+            Height="23">
+            <TextBlock
+              TextAlignment="Left"
+              VerticalAlignment="Top"
+              LineHeight="23"
+              TextWrapping="Wrap"
+              Text="Learn More"
+              FontFamily="Metropolis-Bold"
+              FontSize="17"
+              FontStretch="Medium"
+              Foreground="#717CFF" />
+          </Border>
+          <Canvas
+            Canvas.Left="108.3"
+            Canvas.Top="0.77"
+            Width="24"
+            Height="24"
+            ClipToBounds="True">
+            <Path
+              Data="M1 8.59249L12.17 8.59249L7.29 13.4725C6.9 13.8625 6.9 14.5025 7.29 14.8925C7.68 15.2825 8.31 15.2825 8.7 14.8925L15.29 8.30249C15.68 7.91249 15.68 7.28249 15.29 6.89249L8.71 0.292486C8.52317 0.105233 8.26952 0 8.005 0C7.74048 0 7.48683 0.105233 7.3 0.292486C6.91 0.682486 6.91 1.31249 7.3 1.70249L12.17 6.59249L1 6.59249C0.45 6.59249 0 7.04249 0 7.59249C0 8.14249 0.45 8.59249 1 8.59249Z"
+              Stretch="Fill"
+              Canvas.Left="4.21"
+              Canvas.Top="4.41"
+              Width="15.58"
+              Height="15.18"
+              Fill="#717CFF" />
+          </Canvas>
+        </Canvas>
+      </Canvas>
+      <Border
+        Canvas.Top="46"
+        Width="297"
+        Height="90">
+        <TextBlock
+          TextAlignment="Left"
+          VerticalAlignment="Top"
+          LineHeight="28"
+          TextWrapping="Wrap"
+          FontFamily="Metropolis-Medium"
+          FontSize="16"
+          FontStretch="Medium"
+          Foreground="#B837474F">
+          <Run
+            Text="Maiores voluptas laboriosam non " />
+          <Run
+            Text="dolorum perferendis fuga repellat aut. " />
+          <Run
+            Text="Blanditiis quos in minus. Voluptatum " />
+          <Run
+            Text="quia quia voluptas voluptatem vero ex " />
+          <Run
+            Text="possimus. Iure et consectetur dolorem " />
+          <Run
+            Text="dicta accusantium fugiat." />
+        </TextBlock>
+      </Border>
+      <Border
+        Width="280"
+        Height="37">
+        <TextBlock
+          TextAlignment="Left"
+          VerticalAlignment="Top"
+          LineHeight="37"
+          TextWrapping="Wrap"
+          Text="Career Counselling"
+          FontFamily="Metropolis-Bold"
+          FontSize="24"
+          FontStretch="Medium"
+          Foreground="#37474F" />
+      </Border>
+    </Canvas>
+    <Canvas
+      Canvas.Left="31"
+      Canvas.Top="29"
+      Width="76"
+      Height="76"
+      ClipToBounds="True">
+      <Rectangle
+        Width="76"
+        Height="76"
+        RadiusX="38"
+        RadiusY="38"
+        Fill="#717CFF" />
+      <Canvas
+        Canvas.Left="20"
+        Canvas.Top="19"
+        Width="37"
+        Height="37"
+        ClipToBounds="True">
+        <Path
+          Data="M25.1039 5.67249C24.55 6.22639 24.5039 7.08801 24.9962 7.70345C27.2272 10.5037 28.3966 14.3349 27.3503 18.3506C26.1348 23.0434 22.4575 26.5514 17.7955 27.49C9.94864 29.044 3.07105 22.9818 3.07105 15.3965C3.07105 9.11897 7.76381 3.94925 13.8413 3.19533L13.8413 6.30332C9.02547 7.11878 5.48667 11.6269 6.25598 16.812C6.85603 20.8278 10.1948 24.0589 14.226 24.5512C19.8265 25.2436 24.6116 20.8739 24.6116 15.3965C24.6116 13.4732 24.0269 11.7038 23.0268 10.2268C22.5037 9.45747 21.3805 9.41131 20.7189 10.0575L20.7035 10.0729C20.1804 10.596 20.1342 11.4115 20.5343 12.0269C21.4574 13.4425 21.8267 15.258 21.2882 17.1351C20.6881 19.243 18.9187 20.9201 16.7647 21.3971C12.7643 22.2741 9.22549 19.2584 9.22549 15.3965C9.22549 12.5347 11.1949 10.1498 13.8413 9.45747L13.8413 12.7501C12.9182 13.2886 12.3027 14.2579 12.3027 15.3965C12.3027 17.089 13.6875 18.4737 15.3799 18.4737C17.0724 18.4737 18.4571 17.089 18.4571 15.3965C18.4571 14.2579 17.8417 13.2732 16.9185 12.7501L16.9185 1.10282C16.9185 0.502764 16.4262 0.0104088 15.8261 0.0104088C7.57918 -0.297313 0.470804 6.25716 0.0246074 14.4733C-0.529292 24.5512 8.34848 32.6597 18.5033 30.4749C24.4731 29.1978 29.0889 24.6282 30.4275 18.6737C31.5199 13.8117 30.1198 9.19591 27.3965 5.79558C26.8272 5.07243 25.7502 5.02627 25.1039 5.67249Z"
+          Stretch="Fill"
+          Canvas.Left="3.1"
+          Canvas.Top="3.08"
+          Width="30.8"
+          Height="30.83"
+          Fill="#FFFFFF" />
+      </Canvas>
+    </Canvas>
+  </Canvas>
+  <Canvas
+    Canvas.Left="537"
+    Canvas.Top="1588"
+    Width="344"
+    Height="351"
+    ClipToBounds="True">
+    <Rectangle
+      Width="344"
+      Height="351"
+      RadiusX="15"
+      RadiusY="15"
+      Fill="#FFFFFF">
+      <Rectangle.Effect>
+        <DropShadowEffect
+          Color="#0F000000"
+          Opacity="0.06"
+          BlurRadius="77"
+          Direction="NaN"
+          ShadowDepth="0" />
+      </Rectangle.Effect>
+    </Rectangle>
+    <Canvas
+      Canvas.Left="31"
+      Canvas.Top="135"
+      Width="296"
+      Height="186"
+      ClipToBounds="True">
+      <Canvas
+        Canvas.Top="160"
+        Width="133"
+        Height="26"
+        ClipToBounds="True">
+        <Canvas
+          Canvas.Top="0.85"
+          Width="133"
+          Height="25"
+          ClipToBounds="True">
+          <Border
+            Canvas.Top="0.77"
+            Width="91"
+            Height="23">
+            <TextBlock
+              TextAlignment="Left"
+              VerticalAlignment="Top"
+              LineHeight="23"
+              TextWrapping="Wrap"
+              Text="Learn More"
+              FontFamily="Metropolis-Bold"
+              FontSize="17"
+              FontStretch="Medium"
+              Foreground="#717CFF" />
+          </Border>
+          <Canvas
+            Canvas.Left="108.3"
+            Canvas.Top="0.77"
+            Width="24"
+            Height="24"
+            ClipToBounds="True">
+            <Path
+              Data="M1 8.59249L12.17 8.59249L7.29 13.4725C6.9 13.8625 6.9 14.5025 7.29 14.8925C7.68 15.2825 8.31 15.2825 8.7 14.8925L15.29 8.30249C15.68 7.91249 15.68 7.28249 15.29 6.89249L8.71 0.292486C8.52317 0.105233 8.26952 0 8.005 0C7.74048 0 7.48683 0.105233 7.3 0.292486C6.91 0.682486 6.91 1.31249 7.3 1.70249L12.17 6.59249L1 6.59249C0.45 6.59249 0 7.04249 0 7.59249C0 8.14249 0.45 8.59249 1 8.59249Z"
+              Stretch="Fill"
+              Canvas.Left="4.21"
+              Canvas.Top="4.41"
+              Width="15.58"
+              Height="15.18"
+              Fill="#717CFF" />
+          </Canvas>
+        </Canvas>
+      </Canvas>
+      <Border
+        Canvas.Top="46"
+        Width="297"
+        Height="90">
+        <TextBlock
+          TextAlignment="Left"
+          VerticalAlignment="Top"
+          LineHeight="28"
+          TextWrapping="Wrap"
+          FontFamily="Metropolis-Medium"
+          FontSize="16"
+          FontStretch="Medium"
+          Foreground="#B837474F">
+          <Run
+            Text="Maiores voluptas laboriosam non " />
+          <Run
+            Text="dolorum perferendis fuga repellat aut. " />
+          <Run
+            Text="Blanditiis quos in minus. Voluptatum " />
+          <Run
+            Text="quia quia voluptas voluptatem vero ex " />
+          <Run
+            Text="possimus. Iure et consectetur dolorem " />
+          <Run
+            Text="dicta accusantium fugiat." />
+        </TextBlock>
+      </Border>
+      <Border
+        Width="280"
+        Height="37">
+        <TextBlock
+          TextAlignment="Left"
+          VerticalAlignment="Top"
+          LineHeight="37"
+          TextWrapping="Wrap"
+          Text="University Admissions"
+          FontFamily="Metropolis-Bold"
+          FontSize="24"
+          FontStretch="Medium"
+          Foreground="#37474F" />
+      </Border>
+    </Canvas>
+    <Canvas
+      Canvas.Left="31"
+      Canvas.Top="29"
+      Width="76"
+      Height="76"
+      ClipToBounds="True">
+      <Rectangle
+        Width="76"
+        Height="76"
+        RadiusX="38"
+        RadiusY="38"
+        Fill="#FF5959" />
+      <Canvas
+        Canvas.Left="20"
+        Canvas.Top="19"
+        Width="37"
+        Height="37"
+        ClipToBounds="True">
+        <Canvas
+          Canvas.Left="5.65"
+          Canvas.Top="5.65"
+          Width="25.69"
+          Height="25.69"
+          ClipToBounds="True">
+          <Path
+            Data="M0 21.8403C0 23.9689 1.72557 25.6944 3.85417 25.6944L21.8403 25.6944C23.9689 25.6944 25.6944 23.9689 25.6944 21.8403L25.6944 3.85417C25.6944 1.72557 23.9689 0 21.8403 0L3.85417 0C1.72557 0 0 1.72557 0 3.85417L0 21.8403Z"
+            Stretch="Fill"
+            Width="25.69"
+            Height="25.69" />
+          <Path
+            Data="M20.5556 19.2708C20.5556 19.9804 19.9804 20.5556 19.2708 20.5556L1.28472 20.5556C0.575196 20.5556 0 19.9804 0 19.2708L0 1.28472C0 0.575196 0.575196 0 1.28472 0L7.70833 0L7.70833 10.292L10.7852 10.2922L12.8474 7.53386L14.9093 10.2922L17.9862 10.2922L17.9861 0L19.2708 0C19.9804 0 20.5556 0.575196 20.5556 1.28472L20.5556 19.2708Z"
+            Stretch="Fill"
+            Canvas.Left="2.57"
+            Canvas.Top="2.57"
+            Width="20.56"
+            Height="20.56" />
+          <Path
+            Data="M5.13889 0L0 0L0 6.85508L2.56957 3.41795L5.13889 6.8549L5.13889 0Z"
+            Stretch="Fill"
+            Canvas.Left="12.85"
+            Canvas.Top="2.57"
+            Width="5.14"
+            Height="6.86" />
+        </Canvas>
+      </Canvas>
+    </Canvas>
+  </Canvas>
+  <Canvas
+    Canvas.Left="342"
+    Canvas.Top="1989"
+    Width="344"
+    Height="351"
+    ClipToBounds="True">
+    <Rectangle
+      Width="344"
+      Height="351"
+      RadiusX="15"
+      RadiusY="15"
+      Fill="#FFFFFF">
+      <Rectangle.Effect>
+        <DropShadowEffect
+          Color="#0F000000"
+          Opacity="0.06"
+          BlurRadius="77"
+          Direction="NaN"
+          ShadowDepth="0" />
+      </Rectangle.Effect>
+    </Rectangle>
+    <Canvas
+      Canvas.Left="31"
+      Canvas.Top="135"
+      Width="296"
+      Height="186"
+      ClipToBounds="True">
+      <Canvas
+        Canvas.Top="160"
+        Width="133"
+        Height="26"
+        ClipToBounds="True">
+        <Canvas
+          Canvas.Top="0.85"
+          Width="133"
+          Height="25"
+          ClipToBounds="True">
+          <Border
+            Canvas.Top="0.77"
+            Width="91"
+            Height="23">
+            <TextBlock
+              TextAlignment="Left"
+              VerticalAlignment="Top"
+              LineHeight="23"
+              TextWrapping="Wrap"
+              Text="Learn More"
+              FontFamily="Metropolis-Bold"
+              FontSize="17"
+              FontStretch="Medium"
+              Foreground="#717CFF" />
+          </Border>
+          <Canvas
+            Canvas.Left="108.3"
+            Canvas.Top="0.77"
+            Width="24"
+            Height="24"
+            ClipToBounds="True">
+            <Path
+              Data="M1 8.59249L12.17 8.59249L7.29 13.4725C6.9 13.8625 6.9 14.5025 7.29 14.8925C7.68 15.2825 8.31 15.2825 8.7 14.8925L15.29 8.30249C15.68 7.91249 15.68 7.28249 15.29 6.89249L8.71 0.292486C8.52317 0.105233 8.26952 0 8.005 0C7.74048 0 7.48683 0.105233 7.3 0.292486C6.91 0.682486 6.91 1.31249 7.3 1.70249L12.17 6.59249L1 6.59249C0.45 6.59249 0 7.04249 0 7.59249C0 8.14249 0.45 8.59249 1 8.59249Z"
+              Stretch="Fill"
+              Canvas.Left="4.21"
+              Canvas.Top="4.41"
+              Width="15.58"
+              Height="15.18"
+              Fill="#717CFF" />
+          </Canvas>
+        </Canvas>
+      </Canvas>
+      <Border
+        Canvas.Top="46"
+        Width="297"
+        Height="90">
+        <TextBlock
+          TextAlignment="Left"
+          VerticalAlignment="Top"
+          LineHeight="28"
+          TextWrapping="Wrap"
+          FontFamily="Metropolis-Medium"
+          FontSize="16"
+          FontStretch="Medium"
+          Foreground="#B837474F">
+          <Run
+            Text="Maiores voluptas laboriosam non " />
+          <Run
+            Text="dolorum perferendis fuga repellat aut. " />
+          <Run
+            Text="Blanditiis quos in minus. Voluptatum " />
+          <Run
+            Text="quia quia voluptas voluptatem vero ex " />
+          <Run
+            Text="possimus. Iure et consectetur dolorem " />
+          <Run
+            Text="dicta accusantium fugiat." />
+        </TextBlock>
+      </Border>
+      <Border
+        Width="280"
+        Height="37">
+        <TextBlock
+          TextAlignment="Left"
+          VerticalAlignment="Top"
+          LineHeight="37"
+          TextWrapping="Wrap"
+          Text="Accommodation"
+          FontFamily="Metropolis-Bold"
+          FontSize="24"
+          FontStretch="Medium"
+          Foreground="#37474F" />
+      </Border>
+    </Canvas>
+    <Canvas
+      Canvas.Left="31"
+      Canvas.Top="29"
+      Width="76"
+      Height="76"
+      ClipToBounds="True">
+      <Rectangle
+        Width="76"
+        Height="76"
+        RadiusX="38"
+        RadiusY="38"
+        Fill="#5C96FF" />
+      <Canvas
+        Canvas.Left="20"
+        Canvas.Top="19"
+        Width="37"
+        Height="37"
+        ClipToBounds="True">
+        <Canvas
+          Canvas.Left="6.94"
+          Canvas.Top="4.26"
+          Width="23.12"
+          Height="28.48"
+          ClipToBounds="True">
+          <Path
+            Data="M23.125 10.0952L14.1587 1.12886C12.6535 -0.376287 10.2132 -0.376288 8.70807 1.12886L0 9.83693L0 28.4842L8.99306 28.4842L8.99306 20.7759C8.99306 19.3568 10.1434 18.2064 11.5625 18.2064C12.9816 18.2064 14.1319 19.3568 14.1319 20.7759L14.1319 28.4842L23.125 28.4842L23.125 10.0952Z"
+            Stretch="Fill"
+            Width="23.12"
+            Height="28.48" />
+          <Path
+            Data="M7.95551 0.376282L0 8.33178L0 23.3453L3.85417 23.3453L3.85417 18.2064C3.85417 15.3683 6.15492 13.0675 8.99306 13.0675C11.8311 13.0675 14.1319 15.3683 14.1319 18.2064L14.1319 23.3453L17.9861 23.3453L17.9861 8.59002L9.77237 0.376282C9.27068 -0.125427 8.4572 -0.125427 7.95551 0.376282Z"
+            Stretch="Fill"
+            Canvas.Left="2.57"
+            Canvas.Top="2.57"
+            Width="17.99"
+            Height="23.35" />
+        </Canvas>
+      </Canvas>
+    </Canvas>
+  </Canvas>
+  <Canvas
+    Canvas.Left="733"
+    Canvas.Top="1989"
+    Width="344"
+    Height="351"
+    ClipToBounds="True">
+    <Rectangle
+      Width="344"
+      Height="351"
+      RadiusX="15"
+      RadiusY="15"
+      Fill="#FFFFFF">
+      <Rectangle.Effect>
+        <DropShadowEffect
+          Color="#0F000000"
+          Opacity="0.06"
+          BlurRadius="77"
+          Direction="NaN"
+          ShadowDepth="0" />
+      </Rectangle.Effect>
+    </Rectangle>
+    <Canvas
+      Canvas.Left="31"
+      Canvas.Top="135"
+      Width="296"
+      Height="186"
+      ClipToBounds="True">
+      <Canvas
+        Canvas.Top="160"
+        Width="133"
+        Height="26"
+        ClipToBounds="True">
+        <Canvas
+          Canvas.Top="0.85"
+          Width="133"
+          Height="25"
+          ClipToBounds="True">
+          <Border
+            Canvas.Top="0.77"
+            Width="91"
+            Height="23">
+            <TextBlock
+              TextAlignment="Left"
+              VerticalAlignment="Top"
+              LineHeight="23"
+              TextWrapping="Wrap"
+              Text="Learn More"
+              FontFamily="Metropolis-Bold"
+              FontSize="17"
+              FontStretch="Medium"
+              Foreground="#717CFF" />
+          </Border>
+          <Canvas
+            Canvas.Left="108.3"
+            Canvas.Top="0.77"
+            Width="24"
+            Height="24"
+            ClipToBounds="True">
+            <Path
+              Data="M1 8.59249L12.17 8.59249L7.29 13.4725C6.9 13.8625 6.9 14.5025 7.29 14.8925C7.68 15.2825 8.31 15.2825 8.7 14.8925L15.29 8.30249C15.68 7.91249 15.68 7.28249 15.29 6.89249L8.71 0.292486C8.52317 0.105233 8.26952 0 8.005 0C7.74048 0 7.48683 0.105233 7.3 0.292486C6.91 0.682486 6.91 1.31249 7.3 1.70249L12.17 6.59249L1 6.59249C0.45 6.59249 0 7.04249 0 7.59249C0 8.14249 0.45 8.59249 1 8.59249Z"
+              Stretch="Fill"
+              Canvas.Left="4.21"
+              Canvas.Top="4.41"
+              Width="15.58"
+              Height="15.18"
+              Fill="#717CFF" />
+          </Canvas>
+        </Canvas>
+      </Canvas>
+      <Border
+        Canvas.Top="46"
+        Width="297"
+        Height="90">
+        <TextBlock
+          TextAlignment="Left"
+          VerticalAlignment="Top"
+          LineHeight="28"
+          TextWrapping="Wrap"
+          FontFamily="Metropolis-Medium"
+          FontSize="16"
+          FontStretch="Medium"
+          Foreground="#B837474F">
+          <Run
+            Text="Maiores voluptas laboriosam non " />
+          <Run
+            Text="dolorum perferendis fuga repellat aut. " />
+          <Run
+            Text="Blanditiis quos in minus. Voluptatum " />
+          <Run
+            Text="quia quia voluptas voluptatem vero ex " />
+          <Run
+            Text="possimus. Iure et consectetur dolorem " />
+          <Run
+            Text="dicta accusantium fugiat." />
+        </TextBlock>
+      </Border>
+      <Border
+        Width="280"
+        Height="37">
+        <TextBlock
+          TextAlignment="Left"
+          VerticalAlignment="Top"
+          LineHeight="37"
+          TextWrapping="Wrap"
+          Text="Pre-Departure Briefing"
+          FontFamily="Metropolis-Bold"
+          FontSize="24"
+          FontStretch="Medium"
+          Foreground="#37474F" />
+      </Border>
+    </Canvas>
+    <Canvas
+      Canvas.Left="31"
+      Canvas.Top="29"
+      Width="76"
+      Height="76"
+      ClipToBounds="True">
+      <Rectangle
+        Width="76"
+        Height="76"
+        RadiusX="38"
+        RadiusY="38"
+        Fill="#FA706C" />
+      <Canvas
+        Canvas.Left="20"
+        Canvas.Top="19"
+        Width="37"
+        Height="37"
+        ClipToBounds="True">
+        <Path
+          Data="M9.01786 0L11.5873 0C13.0063 0 14.7456 0.988221 15.4721 2.20727L18.6523 7.54439L24.4346 7.54439C25.1441 7.54439 25.7193 8.11956 25.7193 8.82911C25.7193 9.53866 25.1441 10.1138 24.4346 10.1138L18.5301 10.1138L15.3498 15.451C14.6234 16.67 12.8841 17.6582 11.465 17.6582L8.89565 17.6582L13.3912 10.1138L4.41237 10.1138L2.56944 13.2651L0 13.2651L2.59425 8.82911L2.59425 8.78672L0.024808 4.39312L2.59425 4.39312L4.43719 7.54439L13.5134 7.54439L9.01786 0Z"
+          Stretch="Fill"
+          Canvas.Left="5.64"
+          Canvas.Top="9.67"
+          Width="25.72"
+          Height="17.66"
+          Fill="#FFFFFF" />
+      </Canvas>
+    </Canvas>
+  </Canvas>
+  <Canvas
+    Canvas.Left="928"
+    Canvas.Top="1588"
+    Width="344"
+    Height="351"
+    ClipToBounds="True">
+    <Rectangle
+      Width="344"
+      Height="351"
+      RadiusX="15"
+      RadiusY="15"
+      Fill="#FFFFFF">
+      <Rectangle.Effect>
+        <DropShadowEffect
+          Color="#0F000000"
+          Opacity="0.06"
+          BlurRadius="77"
+          Direction="NaN"
+          ShadowDepth="0" />
+      </Rectangle.Effect>
+    </Rectangle>
+    <Canvas
+      Canvas.Left="31"
+      Canvas.Top="135"
+      Width="296"
+      Height="186"
+      ClipToBounds="True">
+      <Canvas
+        Canvas.Top="160"
+        Width="133"
+        Height="26"
+        ClipToBounds="True">
+        <Canvas
+          Canvas.Top="0.85"
+          Width="133"
+          Height="25"
+          ClipToBounds="True">
+          <Border
+            Canvas.Top="0.77"
+            Width="91"
+            Height="23">
+            <TextBlock
+              TextAlignment="Left"
+              VerticalAlignment="Top"
+              LineHeight="23"
+              TextWrapping="Wrap"
+              Text="Learn More"
+              FontFamily="Metropolis-Bold"
+              FontSize="17"
+              FontStretch="Medium"
+              Foreground="#717CFF" />
+          </Border>
+          <Canvas
+            Canvas.Left="108.3"
+            Canvas.Top="0.77"
+            Width="24"
+            Height="24"
+            ClipToBounds="True">
+            <Path
+              Data="M1 8.59249L12.17 8.59249L7.29 13.4725C6.9 13.8625 6.9 14.5025 7.29 14.8925C7.68 15.2825 8.31 15.2825 8.7 14.8925L15.29 8.30249C15.68 7.91249 15.68 7.28249 15.29 6.89249L8.71 0.292486C8.52317 0.105233 8.26952 0 8.005 0C7.74048 0 7.48683 0.105233 7.3 0.292486C6.91 0.682486 6.91 1.31249 7.3 1.70249L12.17 6.59249L1 6.59249C0.45 6.59249 0 7.04249 0 7.59249C0 8.14249 0.45 8.59249 1 8.59249Z"
+              Stretch="Fill"
+              Canvas.Left="4.21"
+              Canvas.Top="4.41"
+              Width="15.58"
+              Height="15.18"
+              Fill="#717CFF" />
+          </Canvas>
+        </Canvas>
+      </Canvas>
+      <Border
+        Canvas.Top="46"
+        Width="297"
+        Height="90">
+        <TextBlock
+          TextAlignment="Left"
+          VerticalAlignment="Top"
+          LineHeight="28"
+          TextWrapping="Wrap"
+          FontFamily="Metropolis-Medium"
+          FontSize="16"
+          FontStretch="Medium"
+          Foreground="#B837474F">
+          <Run
+            Text="Maiores voluptas laboriosam non " />
+          <Run
+            Text="dolorum perferendis fuga repellat aut. " />
+          <Run
+            Text="Blanditiis quos in minus. Voluptatum " />
+          <Run
+            Text="quia quia voluptas voluptatem vero ex " />
+          <Run
+            Text="possimus. Iure et consectetur dolorem " />
+          <Run
+            Text="dicta accusantium fugiat." />
+        </TextBlock>
+      </Border>
+      <Border
+        Width="280"
+        Height="37">
+        <TextBlock
+          TextAlignment="Left"
+          VerticalAlignment="Top"
+          LineHeight="37"
+          TextWrapping="Wrap"
+          Text="Visa Consultancy"
+          FontFamily="Metropolis-Bold"
+          FontSize="24"
+          FontStretch="Medium"
+          Foreground="#37474F" />
+      </Border>
+    </Canvas>
+    <Canvas
+      Canvas.Left="31"
+      Canvas.Top="29"
+      Width="76"
+      Height="76"
+      ClipToBounds="True">
+      <Rectangle
+        Width="76"
+        Height="76"
+        RadiusX="38"
+        RadiusY="38"
+        Fill="#70CE88" />
+      <Canvas
+        Canvas.Left="20"
+        Canvas.Top="19"
+        Width="37"
+        Height="37"
+        ClipToBounds="True">
+        <Canvas
+          Canvas.Left="7.71"
+          Canvas.Top="3.08"
+          Width="22.35"
+          Height="28.93"
+          ClipToBounds="True">
+          <Path
+            Data="M2.4838 0L15.4172 0L22.3542 7.34504L22.3542 26.299C22.3542 27.7515 21.2421 28.9289 19.8704 28.9289L2.4838 28.9289C1.11203 28.9289 0 27.7515 0 26.299L0 2.6299C0 1.17745 1.11203 0 2.4838 0Z"
+            Stretch="Fill"
+            Width="22.35"
+            Height="28.93" />
+          <Path
+            Data="M11.9046 2.91978e-16L0 2.91978e-16L0 23.6691L17.3866 23.6691L17.3866 5.80447L11.9046 2.91978e-16Z"
+            Stretch="Fill"
+            Canvas.Left="2.48"
+            Canvas.Top="2.63"
+            Width="17.39"
+            Height="23.67" />
+          <Path
+            Data="M8.69329 6.57475L8.69329 9.20466L2.4838 9.20466C1.11203 9.20466 0 8.02721 0 6.57475L0 0L2.4838 0L2.4838 6.57475L8.69329 6.57475Z"
+            Stretch="Fill"
+            Canvas.Left="12.42"
+            Canvas.Top="1.31"
+            Width="8.69"
+            Height="9.2" />
+          <Path
+            Data="M4.60385 5.64494L9.93518 0L11.6915 1.85962L4.60385 9.36419L0 4.48952L1.75631 2.6299L4.60385 5.64494Z"
+            Stretch="Fill"
+            Canvas.Left="5.33"
+            Canvas.Top="13.53"
+            Width="11.69"
+            Height="9.36" />
+        </Canvas>
+      </Canvas>
+    </Canvas>
+  </Canvas>
+  <Canvas
+    Canvas.Left="667"
+    Canvas.Top="1126"
+    Width="107"
+    Height="14"
+    ClipToBounds="True">
+    <Ellipse
+      Width="14"
+      Height="14"
+      Fill="#717CFF" />
+    <Ellipse
+      Canvas.Left="35"
+      Canvas.Top="2"
+      Width="10"
+      Height="10"
+      Fill="#517C7C7C" />
+    <Ellipse
+      Canvas.Left="66"
+      Canvas.Top="2"
+      Width="10"
+      Height="10"
+      Fill="#517C7C7C" />
+    <Ellipse
+      Canvas.Left="97"
+      Canvas.Top="2"
+      Width="10"
+      Height="10"
+      Fill="#517C7C7C" />
+  </Canvas>
+  <Canvas
+    Canvas.Left="148"
+    Canvas.Top="3684"
+    Width="1127"
+    Height="662"
+    ClipToBounds="True">
+    <Canvas
+      Canvas.Left="519"
+      Canvas.Top="648"
+      Width="107"
+      Height="14"
+      ClipToBounds="True">
+      <Ellipse
+        Width="14"
+        Height="14"
+        Fill="#717CFF" />
+      <Ellipse
+        Canvas.Left="35"
+        Canvas.Top="2"
+        Width="10"
+        Height="10"
+        Fill="#517C7C7C" />
+      <Ellipse
+        Canvas.Left="66"
+        Canvas.Top="2"
+        Width="10"
+        Height="10"
+        Fill="#517C7C7C" />
+      <Ellipse
+        Canvas.Left="97"
+        Canvas.Top="2"
+        Width="10"
+        Height="10"
+        Fill="#517C7C7C" />
+    </Canvas>
+    <Canvas
+      Canvas.Left="98"
+      Width="949"
+      Height="159"
+      ClipToBounds="True">
+      <Border
+        Canvas.Left="252"
+        Width="445"
+        Height="54">
+        <TextBlock
+          TextAlignment="Center"
+          VerticalAlignment="Top"
+          LineHeight="54"
+          TextWrapping="Wrap"
+          Text="Upcoming University Events"
+          FontFamily="Metropolis-Bold"
+          FontSize="37"
+          FontStretch="Medium"
+          Foreground="#373737" />
+      </Border>
+      <Border
+        Canvas.Top="79"
+        Width="950"
+        Height="80">
+        <TextBlock
+          TextAlignment="Center"
+          VerticalAlignment="Center"
+          LineHeight="38"
+          TextWrapping="Wrap"
+          FontFamily="Metropolis-Medium"
+          FontSize="22"
+          FontStretch="Medium"
+          Foreground="#7D7D7D">
+          <Run
+            Text="Sunt autem nusquam hoc epicurus in gravissimo bello animadversionis metu degendae praesidia " />
+          <Run
+            Text="firmissima. Torquatos nostros? quos tu paulo ante cum teneam sententiam, quid bonum esse " />
+          <Run
+            Text="vult." />
+        </TextBlock>
+      </Border>
+    </Canvas>
+    <Canvas
+      Canvas.Top="259"
+      Width="540"
+      Height="308"
+      ClipToBounds="True">
+      <Rectangle
+        Width="540"
+        Height="308"
+        RadiusX="15"
+        RadiusY="15"
+        Fill="#FFFFFF">
+        <Rectangle.Effect>
+          <DropShadowEffect
+            Color="#0F000000"
+            Opacity="0.06"
+            BlurRadius="77"
+            Direction="NaN"
+            ShadowDepth="0" />
+        </Rectangle.Effect>
+      </Rectangle>
+      <Canvas
+        Canvas.Left="31"
+        Canvas.Top="249"
+        Width="133"
+        Height="26"
+        ClipToBounds="True">
+        <Canvas
+          Canvas.Top="0.85"
+          Width="133"
+          Height="25"
+          ClipToBounds="True">
+          <Border
+            Canvas.Top="0.77"
+            Width="91"
+            Height="23">
+            <TextBlock
+              TextAlignment="Left"
+              VerticalAlignment="Top"
+              LineHeight="23"
+              TextWrapping="Wrap"
+              Text="Learn More"
+              FontFamily="Metropolis-Bold"
+              FontSize="17"
+              FontStretch="Medium"
+              Foreground="#717CFF" />
+          </Border>
+          <Canvas
+            Canvas.Left="108.3"
+            Canvas.Top="0.77"
+            Width="24"
+            Height="24"
+            ClipToBounds="True">
+            <Path
+              Data="M1 8.59249L12.17 8.59249L7.29 13.4725C6.9 13.8625 6.9 14.5025 7.29 14.8925C7.68 15.2825 8.31 15.2825 8.7 14.8925L15.29 8.30249C15.68 7.91249 15.68 7.28249 15.29 6.89249L8.71 0.292486C8.52317 0.105233 8.26952 0 8.005 0C7.74048 0 7.48683 0.105233 7.3 0.292486C6.91 0.682486 6.91 1.31249 7.3 1.70249L12.17 6.59249L1 6.59249C0.45 6.59249 0 7.04249 0 7.59249C0 8.14249 0.45 8.59249 1 8.59249Z"
+              Stretch="Fill"
+              Canvas.Left="4.21"
+              Canvas.Top="4.41"
+              Width="15.58"
+              Height="15.18"
+              Fill="#717CFF" />
+          </Canvas>
+        </Canvas>
+      </Canvas>
+      <Border
+        Canvas.Left="31"
+        Canvas.Top="134"
+        Width="482.35"
+        Height="90">
+        <TextBlock
+          TextAlignment="Left"
+          VerticalAlignment="Top"
+          LineHeight="28"
+          TextWrapping="Wrap"
+          FontFamily="Metropolis-Medium"
+          FontSize="16"
+          FontStretch="Medium"
+          Foreground="#B837474F">
+          <Run
+            Text="Maiores voluptas laboriosam non dolorum perferendis fuga " />
+          <Run
+            Text="repellat aut. Blanditiis quos in minus. Voluptatum quia quia " />
+          <Run
+            Text="voluptas voluptatem vero ex possimus. Iure et consectetur " />
+          <Run
+            Text="dolorem dicta accusantium fugiat." />
+        </TextBlock>
+      </Border>
+      <Canvas
+        Canvas.Left="316"
+        Canvas.Top="249"
+        Width="196"
+        Height="28"
+        ClipToBounds="True">
+        <Border
+          Canvas.Left="51"
+          Width="146"
+          Height="28">
+          <TextBlock
+            TextAlignment="Right"
+            VerticalAlignment="Top"
+            LineHeight="28"
+            TextWrapping="Wrap"
+            Text="10:00 AM - 2:00 PM"
+            FontFamily="Metropolis-SemiBold"
+            FontSize="16"
+            FontStretch="Medium"
+            Foreground="#373737" />
+        </Border>
+        <Canvas
+          Canvas.Left="24"
+          Canvas.Top="2"
+          Width="28"
+          Height="24"
+          ClipToBounds="True">
+          <Canvas
+            Canvas.Left="4.28"
+            Canvas.Top="3.67"
+            Width="19.44"
+            Height="16.67"
+            ClipToBounds="True">
+            <Path
+              Data="M0 0L1.94444 0L1.94444 4.16667L6.80556 4.16667L6.80556 5.83333L0 5.83333L0 0Z"
+              Stretch="Fill"
+              Canvas.Left="6.81"
+              Canvas.Top="4.17"
+              Width="6.81"
+              Height="5.83"
+              Fill="#000000" />
+            <Canvas
+              Width="19.44"
+              Height="16.67"
+              ClipToBounds="True">
+              <Path
+                Data="M19.4444 8.33333C19.4444 12.9357 15.0916 16.6667 9.72222 16.6667C4.35278 16.6667 0 12.9357 0 8.33333C0 3.73096 4.35278 0 9.72222 0C15.0916 0 19.4444 3.73096 19.4444 8.33333Z"
+                Stretch="Fill"
+                Width="19.44"
+                Height="16.67" />
+              <Path
+                Data="M15.5556 6.66667C15.5556 10.3486 12.0733 13.3333 7.77778 13.3333C3.48223 13.3333 0 10.3486 0 6.66667C0 2.98477 3.48223 0 7.77778 0C12.0733 0 15.5556 2.98477 15.5556 6.66667Z"
+                Stretch="Fill"
+                Canvas.Left="1.94"
+                Canvas.Top="1.67"
+                Width="15.56"
+                Height="13.33" />
+            </Canvas>
+          </Canvas>
+        </Canvas>
+      </Canvas>
+      <Border
+        Canvas.Left="126"
+        Canvas.Top="30"
+        Width="352.33"
+        Height="76">
+        <TextBlock
+          TextAlignment="Left"
+          VerticalAlignment="Top"
+          LineHeight="37"
+          TextWrapping="Wrap"
+          FontFamily="Metropolis-Bold"
+          FontSize="24"
+          FontStretch="Medium"
+          Foreground="#37474F">
+          <Run
+            Text="Macquarie University, Sydney, " />
+          <Run
+            Text="Australia" />
+        </TextBlock>
+      </Border>
+      <Canvas
+        Canvas.Left="31"
+        Canvas.Top="29"
+        Width="76"
+        Height="76"
+        ClipToBounds="True">
+        <Rectangle
+          Width="76"
+          Height="76"
+          Opacity="0.13676526"
+          RadiusX="11"
+          RadiusY="11"
+          Fill="#717CFF" />
+        <Border
+          Canvas.Left="24"
+          Canvas.Top="10"
+          Width="30"
+          Height="36">
+          <TextBlock
+            TextAlignment="Center"
+            VerticalAlignment="Top"
+            LineHeight="36"
+            TextWrapping="Wrap"
+            Text="23"
+            FontFamily="Metropolis-Bold"
+            FontSize="27"
+            FontStretch="Medium"
+            Foreground="#717CFF" />
+        </Border>
+        <Border
+          Canvas.Left="22.5"
+          Canvas.Top="42"
+          Width="31"
+          Height="24">
+          <TextBlock
+            TextAlignment="Center"
+            VerticalAlignment="Top"
+            LineHeight="24"
+            TextWrapping="Wrap"
+            Text="Dec"
+            FontFamily="Metropolis-SemiBold"
+            FontSize="18"
+            FontStretch="Medium"
+            Foreground="#717CFF" />
+        </Border>
+      </Canvas>
+    </Canvas>
+    <Canvas
+      Canvas.Left="587"
+      Canvas.Top="259"
+      Width="540"
+      Height="308"
+      ClipToBounds="True">
+      <Rectangle
+        Width="540"
+        Height="308"
+        RadiusX="15"
+        RadiusY="15"
+        Fill="#FFFFFF">
+        <Rectangle.Effect>
+          <DropShadowEffect
+            Color="#0F000000"
+            Opacity="0.06"
+            BlurRadius="77"
+            Direction="NaN"
+            ShadowDepth="0" />
+        </Rectangle.Effect>
+      </Rectangle>
+      <Canvas
+        Canvas.Left="31"
+        Canvas.Top="249"
+        Width="133"
+        Height="26"
+        ClipToBounds="True">
+        <Canvas
+          Canvas.Top="0.85"
+          Width="133"
+          Height="25"
+          ClipToBounds="True">
+          <Border
+            Canvas.Top="0.77"
+            Width="91"
+            Height="23">
+            <TextBlock
+              TextAlignment="Left"
+              VerticalAlignment="Top"
+              LineHeight="23"
+              TextWrapping="Wrap"
+              Text="Learn More"
+              FontFamily="Metropolis-Bold"
+              FontSize="17"
+              FontStretch="Medium"
+              Foreground="#717CFF" />
+          </Border>
+          <Canvas
+            Canvas.Left="108.3"
+            Canvas.Top="0.77"
+            Width="24"
+            Height="24"
+            ClipToBounds="True">
+            <Path
+              Data="M1 8.59249L12.17 8.59249L7.29 13.4725C6.9 13.8625 6.9 14.5025 7.29 14.8925C7.68 15.2825 8.31 15.2825 8.7 14.8925L15.29 8.30249C15.68 7.91249 15.68 7.28249 15.29 6.89249L8.71 0.292486C8.52317 0.105233 8.26952 0 8.005 0C7.74048 0 7.48683 0.105233 7.3 0.292486C6.91 0.682486 6.91 1.31249 7.3 1.70249L12.17 6.59249L1 6.59249C0.45 6.59249 0 7.04249 0 7.59249C0 8.14249 0.45 8.59249 1 8.59249Z"
+              Stretch="Fill"
+              Canvas.Left="4.21"
+              Canvas.Top="4.41"
+              Width="15.58"
+              Height="15.18"
+              Fill="#717CFF" />
+          </Canvas>
+        </Canvas>
+      </Canvas>
+      <Border
+        Canvas.Left="31"
+        Canvas.Top="134"
+        Width="482.35"
+        Height="90">
+        <TextBlock
+          TextAlignment="Left"
+          VerticalAlignment="Top"
+          LineHeight="28"
+          TextWrapping="Wrap"
+          FontFamily="Metropolis-Medium"
+          FontSize="16"
+          FontStretch="Medium"
+          Foreground="#B837474F">
+          <Run
+            Text="Maiores voluptas laboriosam non dolorum perferendis fuga " />
+          <Run
+            Text="repellat aut. Blanditiis quos in minus. Voluptatum quia quia " />
+          <Run
+            Text="voluptas voluptatem vero ex possimus. Iure et consectetur " />
+          <Run
+            Text="dolorem dicta accusantium fugiat." />
+        </TextBlock>
+      </Border>
+      <Canvas
+        Canvas.Left="316"
+        Canvas.Top="249"
+        Width="196"
+        Height="28"
+        ClipToBounds="True">
+        <Border
+          Canvas.Left="51"
+          Width="146"
+          Height="28">
+          <TextBlock
+            TextAlignment="Right"
+            VerticalAlignment="Top"
+            LineHeight="28"
+            TextWrapping="Wrap"
+            Text="10:00 AM - 2:00 PM"
+            FontFamily="Metropolis-SemiBold"
+            FontSize="16"
+            FontStretch="Medium"
+            Foreground="#373737" />
+        </Border>
+        <Canvas
+          Canvas.Left="24"
+          Canvas.Top="2"
+          Width="28"
+          Height="24"
+          ClipToBounds="True">
+          <Canvas
+            Canvas.Left="4.28"
+            Canvas.Top="3.67"
+            Width="19.44"
+            Height="16.67"
+            ClipToBounds="True">
+            <Path
+              Data="M0 0L1.94444 0L1.94444 4.16667L6.80556 4.16667L6.80556 5.83333L0 5.83333L0 0Z"
+              Stretch="Fill"
+              Canvas.Left="6.81"
+              Canvas.Top="4.17"
+              Width="6.81"
+              Height="5.83"
+              Fill="#000000" />
+            <Canvas
+              Width="19.44"
+              Height="16.67"
+              ClipToBounds="True">
+              <Path
+                Data="M19.4444 8.33333C19.4444 12.9357 15.0916 16.6667 9.72222 16.6667C4.35278 16.6667 0 12.9357 0 8.33333C0 3.73096 4.35278 0 9.72222 0C15.0916 0 19.4444 3.73096 19.4444 8.33333Z"
+                Stretch="Fill"
+                Width="19.44"
+                Height="16.67" />
+              <Path
+                Data="M15.5556 6.66667C15.5556 10.3486 12.0733 13.3333 7.77778 13.3333C3.48223 13.3333 0 10.3486 0 6.66667C0 2.98477 3.48223 0 7.77778 0C12.0733 0 15.5556 2.98477 15.5556 6.66667Z"
+                Stretch="Fill"
+                Canvas.Left="1.94"
+                Canvas.Top="1.67"
+                Width="15.56"
+                Height="13.33" />
+            </Canvas>
+          </Canvas>
+        </Canvas>
+      </Canvas>
+      <Border
+        Canvas.Left="126"
+        Canvas.Top="30"
+        Width="352.33"
+        Height="76">
+        <TextBlock
+          TextAlignment="Left"
+          VerticalAlignment="Top"
+          LineHeight="37"
+          TextWrapping="Wrap"
+          Text="Federation University, Australia"
+          FontFamily="Metropolis-Bold"
+          FontSize="24"
+          FontStretch="Medium"
+          Foreground="#37474F" />
+      </Border>
+      <Canvas
+        Canvas.Left="31"
+        Canvas.Top="29"
+        Width="76"
+        Height="76"
+        ClipToBounds="True">
+        <Rectangle
+          Width="76"
+          Height="76"
+          Opacity="0.13676526"
+          RadiusX="11"
+          RadiusY="11"
+          Fill="#717CFF" />
+        <Border
+          Canvas.Left="24"
+          Canvas.Top="10"
+          Width="30"
+          Height="36">
+          <TextBlock
+            TextAlignment="Center"
+            VerticalAlignment="Top"
+            LineHeight="36"
+            TextWrapping="Wrap"
+            Text="17"
+            FontFamily="Metropolis-Bold"
+            FontSize="27"
+            FontStretch="Medium"
+            Foreground="#717CFF" />
+        </Border>
+        <Border
+          Canvas.Left="23.5"
+          Canvas.Top="42"
+          Width="29"
+          Height="24">
+          <TextBlock
+            TextAlignment="Center"
+            VerticalAlignment="Top"
+            LineHeight="24"
+            TextWrapping="Wrap"
+            Text="Oct"
+            FontFamily="Metropolis-SemiBold"
+            FontSize="18"
+            FontStretch="Medium"
+            Foreground="#717CFF" />
+        </Border>
+      </Canvas>
+    </Canvas>
+  </Canvas>
+  <Rectangle
+    Canvas.Top="4454"
+    Width="1440"
+    Height="892"
+    Fill="#FAFAFA" />
+  <Canvas
+    Canvas.Left="144"
+    Canvas.Top="4772"
+    Width="348"
+    Height="354"
+    ClipToBounds="True">
+    <Rectangle
+      Width="348"
+      Height="215"
+      RadiusX="29"
+      RadiusY="29">
+      <Rectangle.Fill>
+        <ImageBrush
+          Stretch="UniformToFill" />
+      </Rectangle.Fill>
+    </Rectangle>
+    <Border
+      Canvas.Top="282"
+      Width="349"
+      Height="59">
+      <TextBlock
+        TextAlignment="Left"
+        VerticalAlignment="Top"
+        LineHeight="27"
+        TextWrapping="Wrap"
+        FontFamily="Metropolis-Medium"
+        FontSize="16"
+        FontStretch="Medium"
+        Foreground="#B837474F">
+        <Run
+          Text="Ut aut corporis accusantium illo ullam qui " />
+        <Run
+          Text="laudantium. Maxime rerum sunt et sequi sed qui " />
+        <Run
+          Text="rerum hic. Voluptatem maiores voluptatum " />
+        <Run
+          Text="voluptate porro harum. Facilis voluptatum eum " />
+        <Run
+          Text="est." />
+      </TextBlock>
+    </Border>
+    <Border
+      Canvas.Top="242"
+      Width="193"
+      Height="33">
+      <TextBlock
+        TextAlignment="Left"
+        VerticalAlignment="Top"
+        LineHeight="33"
+        TextWrapping="Wrap"
+        Text="Study in Australia"
+        FontFamily="Metropolis-SemiBold"
+        FontSize="25"
+        FontStretch="Medium"
+        Foreground="#37474F" />
+    </Border>
+  </Canvas>
+  <Canvas
+    Canvas.Left="538"
+    Canvas.Top="4772"
+    Width="348"
+    Height="354"
+    ClipToBounds="True">
+    <Rectangle
+      Width="348"
+      Height="215"
+      RadiusX="29"
+      RadiusY="29">
+      <Rectangle.Fill>
+        <ImageBrush
+          Stretch="UniformToFill" />
+      </Rectangle.Fill>
+    </Rectangle>
+    <Border
+      Canvas.Top="282"
+      Width="349"
+      Height="59">
+      <TextBlock
+        TextAlignment="Left"
+        VerticalAlignment="Top"
+        LineHeight="27"
+        TextWrapping="Wrap"
+        FontFamily="Metropolis-Medium"
+        FontSize="16"
+        FontStretch="Medium"
+        Foreground="#B837474F">
+        <Run
+          Text="Ut aut corporis accusantium illo ullam qui " />
+        <Run
+          Text="laudantium. Maxime rerum sunt et sequi sed qui " />
+        <Run
+          Text="rerum hic. Voluptatem maiores voluptatum " />
+        <Run
+          Text="voluptate porro harum. Facilis voluptatum eum " />
+        <Run
+          Text="est." />
+      </TextBlock>
+    </Border>
+    <Border
+      Canvas.Top="242"
+      Width="180"
+      Height="33">
+      <TextBlock
+        TextAlignment="Left"
+        VerticalAlignment="Top"
+        LineHeight="33"
+        TextWrapping="Wrap"
+        Text="Study in Canada"
+        FontFamily="Metropolis-SemiBold"
+        FontSize="25"
+        FontStretch="Medium"
+        Foreground="#37474F" />
+    </Border>
+  </Canvas>
+  <Canvas
+    Canvas.Left="932"
+    Canvas.Top="4772"
+    Width="348"
+    Height="354"
+    ClipToBounds="True">
+    <Rectangle
+      Width="348"
+      Height="215"
+      RadiusX="29"
+      RadiusY="29">
+      <Rectangle.Fill>
+        <ImageBrush
+          Stretch="UniformToFill" />
+      </Rectangle.Fill>
+    </Rectangle>
+    <Border
+      Canvas.Top="282"
+      Width="349"
+      Height="59">
+      <TextBlock
+        TextAlignment="Left"
+        VerticalAlignment="Top"
+        LineHeight="27"
+        TextWrapping="Wrap"
+        FontFamily="Metropolis-Medium"
+        FontSize="16"
+        FontStretch="Medium"
+        Foreground="#B837474F">
+        <Run
+          Text="Ut aut corporis accusantium illo ullam qui " />
+        <Run
+          Text="laudantium. Maxime rerum sunt et sequi sed qui " />
+        <Run
+          Text="rerum hic. Voluptatem maiores voluptatum " />
+        <Run
+          Text="voluptate porro harum. Facilis voluptatum eum " />
+        <Run
+          Text="est." />
+      </TextBlock>
+    </Border>
+    <Border
+      Canvas.Top="242"
+      Width="127"
+      Height="33">
+      <TextBlock
+        TextAlignment="Left"
+        VerticalAlignment="Top"
+        LineHeight="33"
+        TextWrapping="Wrap"
+        Text="Study in Uk"
+        FontFamily="Metropolis-SemiBold"
+        FontSize="25"
+        FontStretch="Medium"
+        Foreground="#37474F" />
+    </Border>
+  </Canvas>
+  <Canvas
+    Canvas.Left="667"
+    Canvas.Top="5196"
+    Width="107"
+    Height="14"
+    ClipToBounds="True">
+    <Ellipse
+      Width="14"
+      Height="14"
+      Fill="#717CFF" />
+    <Ellipse
+      Canvas.Left="35"
+      Canvas.Top="2"
+      Width="10"
+      Height="10"
+      Fill="#517C7C7C" />
+    <Ellipse
+      Canvas.Left="66"
+      Canvas.Top="2"
+      Width="10"
+      Height="10"
+      Fill="#517C7C7C" />
+    <Ellipse
+      Canvas.Left="97"
+      Canvas.Top="2"
+      Width="10"
+      Height="10"
+      Fill="#517C7C7C" />
+  </Canvas>
+  <Rectangle
+    Canvas.Left="1"
+    Canvas.Top="6290"
+    Width="1440"
+    Height="220"
+    Fill="#FAFAFA" />
+  <Canvas
+    Canvas.Left="246"
+    Canvas.Top="4536"
+    Width="949"
+    Height="159"
+    ClipToBounds="True">
+    <Border
+      Canvas.Left="295.5"
+      Width="358"
+      Height="54">
+      <TextBlock
+        TextAlignment="Center"
+        VerticalAlignment="Top"
+        LineHeight="54"
+        TextWrapping="Wrap"
+        Text="Countries We Covered"
+        FontFamily="Metropolis-Bold"
+        FontSize="37"
+        FontStretch="Medium"
+        Foreground="#373737" />
+    </Border>
+    <Border
+      Canvas.Top="79"
+      Width="950"
+      Height="80">
+      <TextBlock
+        TextAlignment="Center"
+        VerticalAlignment="Center"
+        LineHeight="38"
+        TextWrapping="Wrap"
+        FontFamily="Metropolis-Medium"
+        FontSize="22"
+        FontStretch="Medium"
+        Foreground="#7D7D7D">
+        <Run
+          Text="Sunt autem nusquam hoc epicurus in gravissimo bello animadversionis metu degendae praesidia " />
+        <Run
+          Text="firmissima. Torquatos nostros? quos tu paulo ante cum teneam sententiam, quid bonum esse " />
+        <Run
+          Text="vult." />
+      </TextBlock>
+    </Border>
+  </Canvas>
+  <Canvas
+    Canvas.Top="5346"
+    Width="1779"
+    Height="944"
+    ClipToBounds="True">
+    <Canvas
+      Width="1440"
+      Height="944"
+      ClipToBounds="True">
+      <Canvas.Resources>
+        <PathGeometry
+          x:Key="Mask3"
+          Figures="M0 0L1440 0L1440 944L0 944L0 0Z" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+          <PathGeometry.Transform>
+            <TranslateTransform
+              X="-234"
+              Y="384" />
+          </PathGeometry.Transform>
+        </PathGeometry>
+      </Canvas.Resources>
+      <Rectangle
+        Width="1440"
+        Height="944"
+        Fill="#FFFFFF" />
+      <Border
+        Canvas.Left="234"
+        Canvas.Top="-384"
+        Width="230"
+        Height="1330">
+        <TextBlock
+          Opacity="0.10890997"
+          TextAlignment="Left"
+          VerticalAlignment="Top"
+          LineHeight="1330"
+          TextWrapping="Wrap"
+          Text="‘"
+          FontFamily="Metropolis-Medium"
+          FontSize="1000"
+          FontStretch="Medium"
+          Foreground="#2CC56F" />
+      </Border>
+    </Canvas>
+    <Canvas
+      Canvas.Left="148"
+      Canvas.Top="416"
+      Width="503"
+      Height="332"
+      ClipToBounds="True">
+      <Rectangle
+        Width="503"
+        Height="332"
+        RadiusX="29"
+        RadiusY="29"
+        Fill="#FFFFFF">
+        <Rectangle.Effect>
+          <DropShadowEffect
+            Color="#0F000000"
+            Opacity="0.06"
+            BlurRadius="77"
+            Direction="NaN"
+            ShadowDepth="0" />
+        </Rectangle.Effect>
+      </Rectangle>
+      <Border
+        Canvas.Left="34"
+        Canvas.Top="131"
+        Width="436"
+        Height="155">
+        <TextBlock
+          TextAlignment="Left"
+          VerticalAlignment="Top"
+          LineHeight="31"
+          TextWrapping="Wrap"
+          FontFamily="Metropolis-Medium"
+          FontSize="18"
+          FontStretch="Medium"
+          Foreground="#B837474F">
+          <Run
+            Text="Nisi cumque in necessitatibus molestiae eaque " />
+          <Run
+            Text="excepturi ab. Laboriosam ipsam voluptatem " />
+          <Run
+            Text="voluptatibus labore quam nihil. Quasi occaecati quos " />
+          <Run
+            Text="ratione quia aut molestiae velit et. Voluptatem id ea " />
+          <Run
+            Text="dicta inventore et quo impedit repudiandae. Qui " />
+          <Run
+            Text="officia aperiam atque qui occaecati est. Magnam " />
+          <Run
+            Text="voluptatem earum excepturi qui quae ea qui." />
+        </TextBlock>
+      </Border>
+      <Border
+        Canvas.Left="124"
+        Canvas.Top="44"
+        Width="157"
+        Height="29">
+        <TextBlock
+          TextAlignment="Left"
+          VerticalAlignment="Top"
+          LineHeight="29"
+          TextWrapping="Wrap"
+          Text="Harrison Phillips"
+          FontFamily="Metropolis-SemiBold"
+          FontSize="22"
+          FontStretch="Medium"
+          Foreground="#37474F" />
+      </Border>
+      <Border
+        Canvas.Left="124"
+        Canvas.Top="74"
+        Width="70"
+        Height="24">
+        <TextBlock
+          Opacity="0.6493908"
+          TextAlignment="Left"
+          VerticalAlignment="Top"
+          LineHeight="24"
+          TextWrapping="Wrap"
+          Text="Reporter"
+          FontFamily="Metropolis-Medium"
+          FontSize="18"
+          FontStretch="Medium"
+          Foreground="#37474F" />
+      </Border>
+      <Rectangle
+        Canvas.Left="34"
+        Canvas.Top="39"
+        Width="62"
+        Height="62"
+        RadiusX="12"
+        RadiusY="12">
+        <Rectangle.Fill>
+          <ImageBrush
+            Stretch="UniformToFill" />
+        </Rectangle.Fill>
+      </Rectangle>
+    </Canvas>
+    <Canvas
+      Canvas.Left="712"
+      Canvas.Top="416"
+      Width="503"
+      Height="332"
+      ClipToBounds="True">
+      <Rectangle
+        Width="503"
+        Height="332"
+        RadiusX="29"
+        RadiusY="29"
+        Fill="#FFFFFF">
+        <Rectangle.Effect>
+          <DropShadowEffect
+            Color="#0F000000"
+            Opacity="0.06"
+            BlurRadius="77"
+            Direction="NaN"
+            ShadowDepth="0" />
+        </Rectangle.Effect>
+      </Rectangle>
+      <Border
+        Canvas.Left="34"
+        Canvas.Top="131"
+        Width="436"
+        Height="155">
+        <TextBlock
+          TextAlignment="Left"
+          VerticalAlignment="Top"
+          LineHeight="31"
+          TextWrapping="Wrap"
+          FontFamily="Metropolis-Medium"
+          FontSize="18"
+          FontStretch="Medium"
+          Foreground="#B837474F">
+          <Run
+            Text="Aut consectetur voluptas. Voluptatem minus quo " />
+          <Run
+            Text="voluptas in nulla iste. Fugiat alias sit sed dolorem quo. " />
+          <Run
+            Text="Qui praesentium et doloribus minima neque. Facere " />
+          <Run
+            Text="debitis sed est suscipit velit reprehenderit. Dolores " />
+          <Run
+            Text="aliquid dolore consequuntur ex." />
+        </TextBlock>
+      </Border>
+      <Border
+        Canvas.Left="124"
+        Canvas.Top="44"
+        Width="145"
+        Height="29">
+        <TextBlock
+          TextAlignment="Left"
+          VerticalAlignment="Top"
+          LineHeight="29"
+          TextWrapping="Wrap"
+          Text="Ainara Vergara"
+          FontFamily="Metropolis-SemiBold"
+          FontSize="22"
+          FontStretch="Medium"
+          Foreground="#37474F" />
+      </Border>
+      <Border
+        Canvas.Left="124"
+        Canvas.Top="74"
+        Width="160"
+        Height="24">
+        <TextBlock
+          Opacity="0.6493908"
+          TextAlignment="Left"
+          VerticalAlignment="Top"
+          LineHeight="24"
+          TextWrapping="Wrap"
+          Text="Landscape Architect"
+          FontFamily="Metropolis-Medium"
+          FontSize="18"
+          FontStretch="Medium"
+          Foreground="#37474F" />
+      </Border>
+      <Rectangle
+        Canvas.Left="34"
+        Canvas.Top="39"
+        Width="62"
+        Height="62"
+        RadiusX="12"
+        RadiusY="12">
+        <Rectangle.Fill>
+          <ImageBrush
+            Stretch="UniformToFill" />
+        </Rectangle.Fill>
+      </Rectangle>
+    </Canvas>
+    <Canvas
+      Canvas.Left="246"
+      Canvas.Top="115"
+      Width="949"
+      Height="159"
+      ClipToBounds="True">
+      <Border
+        Canvas.Left="383"
+        Width="183"
+        Height="54">
+        <TextBlock
+          TextAlignment="Center"
+          VerticalAlignment="Top"
+          LineHeight="54"
+          TextWrapping="Wrap"
+          Text="Testimonial"
+          FontFamily="Metropolis-Bold"
+          FontSize="37"
+          FontStretch="Medium"
+          Foreground="#373737" />
+      </Border>
+      <Border
+        Canvas.Top="79"
+        Width="950"
+        Height="80">
+        <TextBlock
+          TextAlignment="Center"
+          VerticalAlignment="Center"
+          LineHeight="38"
+          TextWrapping="Wrap"
+          FontFamily="Metropolis-Medium"
+          FontSize="22"
+          FontStretch="Medium"
+          Foreground="#7D7D7D">
+          <Run
+            Text="Torquem detraxit hosti et quidem faciunt, ut et negent satis esse appetendum, alterum. Si sine " />
+          <Run
+            Text="causa? quae fuerit causa, mox videro; interea hoc epicurus in liberos." />
+        </TextBlock>
+      </Border>
+    </Canvas>
+    <Canvas
+      Canvas.Left="667"
+      Canvas.Top="832"
+      Width="107"
+      Height="14"
+      ClipToBounds="True">
+      <Ellipse
+        Width="14"
+        Height="14"
+        Fill="#717CFF" />
+      <Ellipse
+        Canvas.Left="35"
+        Canvas.Top="2"
+        Width="10"
+        Height="10"
+        Fill="#517C7C7C" />
+      <Ellipse
+        Canvas.Left="66"
+        Canvas.Top="2"
+        Width="10"
+        Height="10"
+        Fill="#517C7C7C" />
+      <Ellipse
+        Canvas.Left="97"
+        Canvas.Top="2"
+        Width="10"
+        Height="10"
+        Fill="#517C7C7C" />
+    </Canvas>
+    <Canvas
+      Canvas.Left="1276"
+      Canvas.Top="416"
+      Width="503"
+      Height="332"
+      ClipToBounds="True">
+      <Rectangle
+        Width="503"
+        Height="332"
+        RadiusX="29"
+        RadiusY="29"
+        Fill="#FFFFFF">
+        <Rectangle.Effect>
+          <DropShadowEffect
+            Color="#0F000000"
+            Opacity="0.06"
+            BlurRadius="77"
+            Direction="NaN"
+            ShadowDepth="0" />
+        </Rectangle.Effect>
+      </Rectangle>
+      <Border
+        Canvas.Left="34"
+        Canvas.Top="131"
+        Width="436"
+        Height="155">
+        <TextBlock
+          TextAlignment="Left"
+          VerticalAlignment="Top"
+          LineHeight="31"
+          TextWrapping="Wrap"
+          FontFamily="Metropolis-Medium"
+          FontSize="18"
+          FontStretch="Medium"
+          Foreground="#B837474F">
+          <Run
+            Text="Rem quia possimus eum adipisci autem aut sunt " />
+          <Run
+            Text="laboriosam autem. Qui soluta ut aut excepturi " />
+          <Run
+            Text="dolorem laborum ut. Qui alias aut provident quas illo. " />
+          <Run
+            Text="Eveniet debitis totam quaerat. Enim voluptatem fuga " />
+          <Run
+            Text="qui. Numquam iusto vero ipsa eveniet iusto." />
+        </TextBlock>
+      </Border>
+      <Border
+        Canvas.Left="124"
+        Canvas.Top="44"
+        Width="99"
+        Height="29">
+        <TextBlock
+          TextAlignment="Left"
+          VerticalAlignment="Top"
+          LineHeight="29"
+          TextWrapping="Wrap"
+          Text="Niek Bove"
+          FontFamily="Metropolis-SemiBold"
+          FontSize="22"
+          FontStretch="Medium"
+          Foreground="#37474F" />
+      </Border>
+      <Border
+        Canvas.Left="124"
+        Canvas.Top="74"
+        Width="137"
+        Height="24">
+        <TextBlock
+          Opacity="0.6493908"
+          TextAlignment="Left"
+          VerticalAlignment="Top"
+          LineHeight="24"
+          TextWrapping="Wrap"
+          Text="Senior Developer"
+          FontFamily="Metropolis-Medium"
+          FontSize="18"
+          FontStretch="Medium"
+          Foreground="#37474F" />
+      </Border>
+      <Rectangle
+        Canvas.Left="34"
+        Canvas.Top="39"
+        Width="62"
+        Height="62"
+        RadiusX="12"
+        RadiusY="12">
+        <Rectangle.Fill>
+          <ImageBrush
+            Stretch="UniformToFill" />
+        </Rectangle.Fill>
+      </Rectangle>
+    </Canvas>
+  </Canvas>
+  <Border
+    Canvas.Left="148"
+    Canvas.Top="6382"
+    Width="478"
+    Height="49">
+    <TextBlock
+      TextAlignment="Left"
+      VerticalAlignment="Top"
+      LineHeight="49"
+      TextWrapping="Wrap"
+      Text="Ready to chase your dreams?"
+      FontFamily="Metropolis-Bold"
+      FontSize="37"
+      FontStretch="Medium"
+      Foreground="#252525" />
+  </Border>
+  <Canvas
+    Canvas.Left="1029"
+    Canvas.Top="6372"
+    Width="262"
+    Height="64"
+    ClipToBounds="True">
+    <Rectangle
+      Width="262"
+      Height="64"
+      RadiusX="11"
+      RadiusY="11"
+      Fill="#717CFF" />
+    <Canvas
+      Canvas.Left="201.37"
+      Canvas.Top="19"
+      Width="28.15"
+      Height="26"
+      ClipToBounds="True">
+      <Path
+        Data="M1.17287 9.30853L14.2738 9.30853L8.55019 14.5952C8.09277 15.0177 8.09277 15.711 8.55019 16.1335C9.00761 16.556 9.74651 16.556 10.2039 16.1335L17.9331 8.99436C18.3905 8.57186 18.3905 7.88936 17.9331 7.46686L10.2157 0.316859C9.99653 0.114002 9.69903 0 9.38879 0C9.07854 0 8.78104 0.114002 8.56192 0.316859C8.1045 0.739359 8.1045 1.42186 8.56192 1.84436L14.2738 7.14186L1.17287 7.14186C0.527789 7.14186 0 7.62936 0 8.22519C0 8.82103 0.527789 9.30853 1.17287 9.30853Z"
+        Stretch="Fill"
+        Canvas.Left="4.94"
+        Canvas.Top="4.77"
+        Width="18.28"
+        Height="16.45"
+        Fill="#FFFFFF" />
+    </Canvas>
+    <Border
+      Canvas.Left="34"
+      Canvas.Top="12"
+      Width="127"
+      Height="40">
+      <TextBlock
+        TextAlignment="Left"
+        VerticalAlignment="Top"
+        LineHeight="40"
+        TextWrapping="Wrap"
+        Text="Apply Online"
+        FontFamily="Metropolis-Medium"
+        FontSize="22"
+        FontStretch="Medium"
+        Foreground="#FFFFFF" />
+    </Border>
+  </Canvas>
+</Canvas>
