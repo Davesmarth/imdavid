@@ -139,6 +139,7 @@ ul {
         padding: 0 5%;
     }
     .navabar__brand {
+        position: absolute;
         left: 0;
         transform: translateX(10px);
     }
