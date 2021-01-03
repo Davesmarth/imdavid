@@ -1,0 +1,227 @@
+@import './root.css';
+* {
+    font-family: 'Poppins', 'Gilroy', sans-serif;
+    line-height: 1rem;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--main);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1920px;
+    width: 100%;
+    background: var(--background);
+    color: var(--main);
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.highligth {
+    color: var(--second);
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.social {
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-content: center;
+    line-height: 1rem;
+}
+
+.navbar {
+    position: relative;
+    height: 4rem;
+    padding: 0 15%;
+    font-family: 'Poppins', 'Gilroy', sans-serif;
+}
+
+.navabar__brand {
+    display: inline-block;
+    width: 149px;
+    height: 71px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9100;
+}
+
+.navbar__mobile {
+    display: none;
+    font-size: 1.5rem;
+}
+
+.navbar__group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 10%;
+    margin: 0;
+    padding: 0 15%;
+    padding-top: 1.5rem;
+    background: var(--background);
+    z-index: 9000;
+}
+
+.navbar__group__list {
+    width: 25%;
+    height: 4rem;
+}
+
+.navbar__group__list__item {
+    display: inline-block;
+    width: 3.1rem;
+    margin-right: 2rem;
+}
+
+.navbar__group__list__item--link {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: var(--main);
+}
+
+.navbar__group__list__item--link::before {
+    content: '';
+    position: absolute;
+    top: 1rem;
+    width: 0;
+    height: 3px;
+    background: var(--second);
+    transition: all 300ms ease-in;
+}
+
+.navbar__group__list__item--link.active::before {
+    bottom: 0;
+    width: 50px;
+}
+
+.navbar__group__list__item--link:hover::before {
+    width: 50px;
+}
+
+.container__works__item,
+.container__blog__item {
+    background-color: var(--shadow)
+}
+
+@media (min-width: 320px) and (max-width: 750px) {
+    body {
+        max-width: 750px;
+    }
+    .navbar {
+        padding: 0 5%;
+    }
+    .navabar__brand {
+        left: 0;
+        transform: translateX(10px);
+    }
+    .navbar__mobile {
+        display: block;
+        width: 2rem;
+        height: 2rem;
+        float: right;
+        margin: 1rem;
+    }
+    .fa-bars {
+        color: var(--second);
+    }
+    .navbar__group {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 6rem;
+        height: 50vh;
+        transform: translateX(-100%);
+        transition: all 300ms ease-in-out;
+        background-color: var(--background);
+    }
+    .navbar__group.active {
+        transform: translateX(0);
+    }
+    .navbar__group__list {
+        height: 6rem;
+        padding: 0;
+        text-align: left;
+    }
+    .navbar__group__list__item {
+        display: block;
+        width: 100%;
+        height: 3rem;
+    }
+    .navbar__group__list__item--link::before {
+        opacity: 0;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 1023px) {
+    body {
+        max-width: 1023px;
+    }
+    .navbar {
+        padding: 5%;
+    }
+    .navabar__brand {
+        left: 0;
+        transform: translateX(10px);
+    }
+    .navbar__mobile {
+        display: block;
+        width: 2rem;
+        height: 2rem;
+        float: right;
+        margin: 1rem;
+    }
+    .fa-bars {
+        color: var(--second);
+    }
+    .navbar__group {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 6rem;
+        height: 90vh;
+        transform: translateX(100%);
+        transition: all 300ms ease-in-out;
+        background-color: var(--background);
+    }
+    .navbar__group.active {
+        transform: translateX(0);
+    }
+    .navbar__group__list {
+        height: 6rem;
+        padding: 0;
+        text-align: left;
+    }
+    .navbar__group__list__item {
+        display: block;
+        width: 100%;
+        height: 3rem;
+    }
+    .navbar__group__list__item--link::before {
+        opacity: 0;
+    }
+}
