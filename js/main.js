@@ -8,6 +8,7 @@ document.addEventListener('click', (e) => {
         mainNavbar.classList.toggle('active');
     }
     if (e.target.matches('#navWork')) {
-        navWork.classList.toggle('active')
+        navWork.classList.toggle('active');
+        mainNavbar.classList.toggle('active');
     }
 })

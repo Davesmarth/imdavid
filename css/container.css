@@ -11,6 +11,16 @@
     grid-template-columns: repeat(autofit, 1fr);
 }
 
+.container__name {
+    position: absolute;
+    left: 1rem;
+    top: 20%;
+    width: 3rem;
+    height: 2rem;
+    transform: rotate(-90deg);
+    color: var(--shadow);
+}
+
 .works {
     grid-template-rows: 3rem 1fr;
 }
@@ -101,6 +111,10 @@
     line-height: 2rem;
 }
 
+.address {
+    height: 2rem;
+}
+
 .contact__info__form {
     width: 100%;
     height: 100%;
@@ -132,6 +146,39 @@
     background: var(--main);
     color: var(--background);
     font-weight: bolder;
+}
+
+.footer {
+    height: 40vh;
+}
+
+.container__footer {
+    width: 100%;
+    height: 100%;
+}
+
+.container__footer__copyrigth {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 2.5rem;
+    background: var(--shadow);
+    padding: 0 15%;
+    font-size: 0.7rem;
+}
+
+.footer__social {
+    width: 100%;
+    height: 90%;
+    align-items: center;
+}
+
+.footer-icon {
+    font-size: 3rem;
 }
 
 @media (min-width: 320px) and (max-width: 750px) {
@@ -167,6 +214,9 @@
     }
     .container__blog__item {
         grid-column: span 2;
+    }
+    .contact {
+        height: 100vh;
     }
     .container__home__social,
     .contact__info__form {
