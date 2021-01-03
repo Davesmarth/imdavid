@@ -229,3 +229,36 @@ label {
 .container__legal--link {
 	color: var(--second);
 }
+
+@media (min-width: 320px) and (max-width: 750px) {
+	body {
+		max-width: 750px;
+		width: 100%;
+	}
+	.navbar__brand {
+		position: absolute;
+		left: 0;
+		top: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.navbar__mobile {
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.navbar__group {
+		flex-direction: column;
+		width: 100%;
+		height: 100vh;
+		z-index: 10;
+		background: var(--background);
+	}
+	.navbar__group__list:nth-child(2) {
+		margin-right: 3rem;
+	}
+	.navbar__group__list:nth-child(3) {
+		margin-left: 3rem;
+	}
+}
