@@ -1,0 +1,145 @@
+@import './root'
+
+.navbar
+    position: relative
+    height: 4rem
+    padding: 0 15%
+    font-family: 'Poppins', 'Gilroy', sans-serif
+
+    &__brand
+        display: inline-block
+        width: 149px
+        height: 71px
+        position: fixed
+        left: 50%
+        transform: translateX(-50%)
+        z-index: 9100
+
+    &__mobile
+        display: none
+        font-size: 1.5rem
+
+    &__group
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        text-align: center
+        position: fixed
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        height: 10%
+        margin: 0
+        padding: 0 15%
+        padding-top: 1.5rem
+        background: $background
+        z-index: 9000
+
+        &__list
+            width: 25%
+            height: 4rem
+            &__item
+                display: inline-block
+                width: 3.1rem
+                margin-right: 2rem
+                &--link
+                    font-size: 1rem
+                    line-height: 1.5rem
+                    color: $main
+                    &::before
+                        content: ''
+                        position: absolute
+                        top: 1rem
+                        width: 0
+                        height: 3px
+                        background: $second
+                        transition: all 300ms ease-in
+                    &.active
+                        &::before
+                            bottom: 0
+                            width: 50px
+                    &:hover
+                        &::before
+                            width: 50px
+
+@media (min-width: 320px) and (max-width: 750px)
+    body
+        max-width: 750px
+
+    .navbar
+        padding: 0 5%
+        &__brand
+            position: absolute
+            left: 0
+            transform: translateX(10px)
+        &__mobile
+            display: block
+            width: 2rem
+            height: 2rem
+            float: right
+            margin: 1rem
+        &__group
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            top: 6rem
+            height: 50vh
+            transform: translateX(-100%)
+            transition: all 300ms ease-in-out
+            background-color: $background
+            &.active
+                transform: translateX(0)
+            &__list
+                height: 6rem
+                padding: 0
+                text-align: left
+                &__item
+                    display: block
+                    width: 100%
+                    height: 3rem
+                    &--link
+                        &::before
+                            opacity: 0
+    .fa-bars
+        color: $second
+
+@media (min-width: 751px) and (max-width: 1023px)
+    body
+        max-width: 1023px
+
+    .navbar
+        padding: 5%
+        &__brand
+            left: 0
+            transform: translateX()(10px)
+        &__mobile
+            display: block
+            width: 2rem
+            height: 2rem
+            float: right
+            margin: 1rem
+        &__group
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            top: 6rem
+            height: 90vh
+            transform: translateX(100%)
+            transition: all 300ms ease-in-out
+            background-color: $background
+            &.active
+                transform: translateX(0)
+                &__list
+                    height: 6rem
+                    padding: 0
+                    text-align: left
+                    &__item
+                        display: block
+                        width: 100%
+                        height: 3rem
+                        &::before
+                            opacity: 0
+
+    .fa-bars
+        color: $second

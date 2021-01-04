@@ -1,0 +1,238 @@
+@import './root'
+.container 
+    position: relative
+    width: 100%
+    height: 80vh
+    padding: 0 15%
+    margin-top: 1.5rem
+    display: grid
+    grid-template-columns: repeat(autofit, 1fr)
+    &__name 
+        position: absolute
+        left: 1rem
+        top: 20%
+        width: 3rem
+        height: 2rem
+        transform: rotate(-90deg)
+        color: $shadow
+    &__home 
+        justify-self: center
+        align-self: center
+        text-align: center
+        font-family: 'Gilroy', sans-serif
+        &__banner
+            width: 50%
+            font-size: 4em
+            line-height: 1em
+    &__title
+        font-weight: normal
+        line-height: 2rem
+    &__works
+        justify-self: center
+        align-self: flex-end
+        width: 100%
+        height: 100%
+        display: grid
+        grid-template-columns: repeat(2, 1fr)
+        grid-template-rows: repeat(5, 1fr)
+        grid-row-gap: 2rem
+        grid-column-gap: 2rem
+        &__item
+            grid-column: span 1
+            background: $shadow
+            
+    &__blog__item
+        background-color: $shadow
+    &__info
+        display: grid
+        grid-template-columns: repeat(2, 1fr)
+        &__social
+            margin: 0
+            line-height: 2rem
+    &__footer
+        width: 100%
+        height: 100%
+        &__copyrigth
+            position: absolute
+            bottom: 0
+            left: 0
+            display: flex
+            justify-content: center
+            align-items: center
+            width: 100%
+            height: 2.5rem
+            background: $shadow
+            padding: 0 15%
+            font-size: 0.7rem
+
+.works 
+    grid-template-rows: 3rem 1fr
+
+.social__item 
+    margin-left: 1.5rem
+    &__link:hover .fab
+        color: $second
+
+
+.fab 
+    transition: all 300ms ease-in
+
+
+.first 
+    grid-row: 1 / span 3
+
+
+.second 
+    grid-row: 1 / span 2
+    grid-column-start: 2
+    grid-column-end: 2
+
+
+.third 
+    grid-row: 4 / span 2
+
+
+.fourth 
+    grid-row: 3 / span 3
+
+
+.about 
+    grid-template-rows: repeat(4, 1fr)
+    &__item
+        grid-row: span 2
+
+
+.contact 
+    flex-direction: column
+    &__info
+        &__form 
+            width: 100%
+            height: 100%
+        &__item
+            width: 100%
+            height: 10rem
+            margin-top: 2rem
+            line-height: 2rem
+            &--input
+                width: 100%
+                height: 3rem
+                border: none
+                border-bottom: 2px solid $shadow
+            &--btn
+                width: 25%
+                height: 2.5rem
+                border: none
+                border-radius: 7px
+                background: $main
+                color: $background
+                font-weight: bolder
+        &__social
+            margin: 0
+            line-height: 2rem
+
+.address 
+    height: 2rem
+    
+.message 
+    height: 5rem
+
+
+.footer 
+    height: 40vh
+    &__social 
+        width: 100%
+        height: 90%
+        align-items: center
+    &-icon
+        font-size: 3rem
+
+
+@media (min-width: 320px) and (max-width: 750px) 
+    .container
+        &__home 
+            text-align: left
+            &__banner 
+                font-size: 2em
+        &__works 
+            grid-template-rows: repeat(4, 1fr)
+            &__item
+                grid-column: span 2
+        &__blog__item 
+            grid-column: span 2
+    
+    .works 
+        grid-template-rows: 4rem 1fr
+    
+    .first 
+        grid-row: 1 / span 1
+    
+    .second 
+        grid-row: 2 / span 1
+    
+    .third 
+        grid-row: 3 / span 1
+    
+    .fourth 
+        grid-row: 4 / span 1
+    
+    .about
+        &__item 
+            grid-row: span 1
+    
+    .contact 
+        height: 100vh
+    
+    .container__home__social,
+    .contact__info__form 
+        grid-column: span 2
+        margin-top: 2rem
+    
+
+
+@media (min-width: 751px) and (max-width: 1023px) 
+    .container
+        &__home
+            &__banner 
+                font-size: 2em
+            &__social
+                grid-column: span 2
+        &__works
+            grid-template-rows: repeat(4, 1fr)
+            &__item
+                grid-column: span 2
+        &__blog
+            &__item
+                grid-column: span 1
+
+    .contact
+        &__info
+            &__form 
+                grid-column: span 2
+                margin-top: 2rem
+    
+    .works 
+        grid-template-rows: 4rem 1fr
+    
+    .first 
+        grid-row: 1 / span 2
+        grid-column: span 1
+    
+    .second 
+        grid-row: 3 / span 2
+        grid-column: span 1
+    
+    .third 
+        grid-row: 1 / span 2
+        grid-column: 2 / span 1
+    
+    .fourth 
+        grid-row: 3 / span 2
+        grid-column: 2 / span 1
+    
+    .about
+        &__item 
+            grid-row: span 2
+            grid-column: span 1
+    
+   
+    

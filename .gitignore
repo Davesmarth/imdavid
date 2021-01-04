@@ -104,3 +104,14 @@ dist
 .tern-port
 
 /.vscode
+
+.old/
+/css/olds/
+css/container.css
+css/container.css.map
+css/navbar.css
+css/navbar.css.map
+css/root.css
+css/root.css.map
+css/styles.css
+css/styles.css.map
