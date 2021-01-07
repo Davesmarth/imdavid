@@ -1,0 +1,25 @@
+{
+  "name": "imdavid",
+  "version": "1.0.0",
+  "description": "frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Davesmarth/assets.git"
+  },
+  "keywords": [
+    "html"
+  ],
+  "author": "David Figueroa López",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Davesmarth/assets/issues"
+  },
+  "homepage": "https://github.com/Davesmarth/assets#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

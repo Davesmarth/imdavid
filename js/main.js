@@ -1,4 +1,5 @@
 const mainNavbar = document.getElementById('collapse'),
+    navbar = document.querySelector('.navbar__group'),
     navWork = document.getElementById('navWork'),
     navAbout = document.getElementById('navAbout'),
     navBlog = document.getElementById('navBlog'),
@@ -8,7 +9,33 @@ document.addEventListener('click', (e) => {
         mainNavbar.classList.toggle('active');
     }
     if (e.target.matches('#navWork')) {
-        navWork.classList.toggle('active');
-        mainNavbar.classList.toggle('active');
+        navbarEffect(e.target);
     }
-})
+    if (e.target.matches('#navAbout')) {
+        navbarEffect(e.target);
+    }
+    if (e.target.matches('#navBlog')) {
+        navbarEffect(e.target)
+    }
+    if (e.target.matches('#navContact')) {
+        navbarEffect(e.target);
+    }
+});
+
+function navbarEffect(element) {
+    const mainMenu = [navWork, navAbout, navBlog, navContact];
+
+    mainMenu.forEach(props => {
+        if (element === props) {
+            props.classList.add('active');
+        } else {
+            props.classList.remove('active');
+        }
+    });
+    return true
+}
+
+tsParticles
+    .loadJSON("tsparticles", "./particles-config/particles.json")
+    .then(container => container)
+    .catch(err => err);

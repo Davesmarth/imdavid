@@ -27,7 +27,6 @@ body {
           flex-direction: column;
   max-width: 1920px;
   width: 100%;
-  background: #f6f6f6;
   color: #181f2c;
   overflow-x: hidden;
   -webkit-box-sizing: border-box;
@@ -301,7 +300,6 @@ body {
           flex-direction: column;
   max-width: 1920px;
   width: 100%;
-  background: #f6f6f6;
   color: #181f2c;
   overflow-x: hidden;
   -webkit-box-sizing: border-box;
@@ -340,16 +338,27 @@ ul {
   font-size: 2rem;
 }
 
+.particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
 .container {
   position: relative;
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   padding: 0 15%;
   margin-top: 1.5rem;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[autofit];
       grid-template-columns: repeat(autofit, 1fr);
+  z-index: 100;
 }
 
 .container__name {
@@ -374,9 +383,11 @@ ul {
 }
 
 .container__home__banner {
+  position: relative;
   width: 50%;
   font-size: 4em;
   line-height: 1em;
+  z-index: 100;
 }
 
 .container__title {
@@ -449,6 +460,11 @@ ul {
 .works {
   -ms-grid-rows: 3rem 1fr;
       grid-template-rows: 3rem 1fr;
+  padding-top: 4rem;
+}
+
+.home {
+  height: 80vh;
 }
 
 .social__item {
@@ -505,6 +521,10 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.contact--title {
+  text-align: center;
 }
 
 .contact__info__form {
@@ -676,5 +696,11 @@ ul {
     grid-row: span 2;
     grid-column: span 1;
   }
+}
+
+#blog {
+  -ms-flex-item-align: self-end;
+      -ms-grid-row-align: self-end;
+      align-self: self-end;
 }
 /*# sourceMappingURL=styles.css.map */
