@@ -23,6 +23,11 @@ document.addEventListener('click', (e) => {
     if(e.target.matches('.about__item--btn')){
         aboutCovering(e.target.id);
     }
+    if(e.target.matches('#noticesBtn')){
+        setTimeout(()=>{
+            document.getElementById('notices').setAttribute('style', 'display: none');
+        }, 300)
+    }
 });
 
 function navbarEffect(element) {
