@@ -1,4 +1,20 @@
 @import './root.sass';
+
+@mixin iconBackground($icon)
+    &::before
+        content: $icon
+        font-family: FontAwesome
+        font-style: normal
+        font-weight: normal
+        text-decoration: inherit
+        position: absolute
+        font-size: 10rem
+        color: $background
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+
+
 .particles
     position: absolute
     top: 0
@@ -52,6 +68,7 @@
         &__item
             grid-column: span 1
             background: $shadow
+            padding: 1rem
             
     &__blog__item
         background-color: $shadow
@@ -102,6 +119,8 @@
     grid-row: 1 / span 2
     grid-column-start: 2
     grid-column-end: 2
+    &--title
+        line-height: 2rem
 
 
 .third 
@@ -148,6 +167,10 @@
             margin: 0
             line-height: 2rem
 
+.codepen
+    width: 100%
+    height: 100%
+
 .address 
     height: 2rem
     
@@ -164,6 +187,54 @@
     &-icon
         font-size: 3rem
 
+.about
+    &__item
+        &__content
+            width: 100%
+            height: 100%
+            position: relative
+            &__detailed
+                width: 100%
+                height: 100%
+                position: absolute
+                background: $main
+                top: 0
+                padding: 1rem
+                clip-path: circle(3% at 7% 13%)
+                transition: all 0.3s ease
+                &.covered
+                    clip-path: circle(130% at 7% 13%)
+                &--title
+                    color: $background
+                    text-align: center
+                &--text
+                    color: $background
+                    text-align: left
+                    line-height: 1.5rem
+                    margin-top: 3rem
+            &.hobbies
+                @include iconBackground($icon: '\f001')
+                    
+            &.html
+                @include iconBackground($icon: '\f121')
+            &.school
+                @include iconBackground($icon: '\f19d')
+            &.javascript
+                @include iconBackground($icon: '\f3b8')
+        &--btn
+            width: 3rem
+            height: 3rem
+            border: none
+            background: $main
+            color: $second
+            border-radius: 50%
+            margin: 0.5rem
+            position: absolute
+            z-index: 4
+            outline: none
+
+                
+                    
 
 @media (min-width: 320px) and (max-width: 750px) 
     .container

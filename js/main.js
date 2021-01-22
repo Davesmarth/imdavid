@@ -20,6 +20,9 @@ document.addEventListener('click', (e) => {
     if (e.target.matches('#navContact')) {
         navbarEffect(e.target);
     }
+    if(e.target.matches('.about__item--btn')){
+        aboutCovering(e.target.id);
+    }
 });
 
 function navbarEffect(element) {
@@ -33,6 +36,11 @@ function navbarEffect(element) {
         }
     });
     return true
+}
+
+function aboutCovering(buttonId){
+    const element = document.querySelector(`.${buttonId}`);
+    element.classList.toggle('covered');
 }
 
 tsParticles

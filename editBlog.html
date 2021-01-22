@@ -47,10 +47,12 @@
                 placeholder: 'Compose an epic...',
                 theme: 'snow'
             })
+
             document.getElementById('btn-draft')
                 .addEventListener('click', () => {
                     window.open('draft.html', 'nuevaVentana', 'width=1920, heigh=1080')
-                })
+                    console.log(quill.getContents())
+                });
         </script>
 </body>
 
