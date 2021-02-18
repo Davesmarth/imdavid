@@ -10,6 +10,7 @@ document.addEventListener('click', (e) => {
     }
     if (e.target.matches('#navWork')) {
         navbarEffect(e.target);
+        closeNavBarCollpsed()
     }
     if (e.target.matches('#navAbout')) {
         navbarEffect(e.target);
@@ -46,6 +47,9 @@ function navbarEffect(element) {
 function aboutCovering(buttonId){
     const element = document.querySelector(`.${buttonId}`);
     element.classList.toggle('covered');
+}
+function closeNavBarCollpsed(){
+    mainNavbar.classList.remove('active');
 }
 
 tsParticles
