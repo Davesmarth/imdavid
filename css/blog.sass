@@ -1,0 +1,139 @@
+@import './root'
+
+@mixin iconBars()
+    &__icon
+        position: relative
+        right: 0
+        width: 2rem
+        height: 2rem
+        font-size: 1.5rem
+        outline: none
+        color: $main-shadow
+        border: none
+        background: none
+        white-space: nowrap
+        cursor: pointer
+        transform: rotate(0deg)
+        transition: all .5s ease-in-out
+        z-index: 100
+        &--bars
+            display: block
+            position: absolute
+            top: 1rem
+            height: 3px
+            width: 100%
+            right: 0
+            background: $main
+            border-radius: 2px
+            transform: rotate(0deg)
+            transition: all .25s ease-in-out
+            &::before
+                @extend .navbar__icon--bars
+                content: ''
+                top: -0.5rem
+
+            &::after
+                @extend .navbar__icon--bars
+                content: ''
+                top: -1rem
+        &.open
+            .navbar__icon
+                color: $main
+                &--bars
+                    &::after
+                        transform: rotate(45deg)
+                        top: -15px
+                    &::before
+                        transform: rotate(-45deg)
+                        top: -15px
+@mixin effectsHoverBars()
+    &:hover
+        background: $main
+        transition: all 0.5s ease
+    &--link
+        &:hover
+            color: $background
+            transition: all 0.5s ease
+body
+    width: 100%
+    height: 100%
+    position: relative
+    background: $background
+
+h1
+    font-family: 'Gilroy', sans-serif
+    font-weight: normal
+    font-size: 3rem
+    line-height: 1
+
+time
+    height: 2rem
+    margin-top: 1rem
+
+.navbar
+    display: flex
+    position: sticky
+    width: 100%
+    height: 100%
+    justify-content: space-between
+    align-items: center
+    padding: 0 2rem
+    &__brand
+        display: inline-block
+        position: relative
+        z-index: 100
+    @include iconBars()
+    &__group
+        position: absolute
+        top: 0
+        left: -100%
+        width: 100%
+        height: 100vh
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        background: $background
+        font-size: 2rem
+        transition: all 0.5s ease-in-out
+        z-index: 90
+        &.active 
+            left: 0
+        &__item
+            width: 100%
+            height: calc( 70% / 5 )
+            display: flex
+            justify-content: center
+            align-items: center
+            @include effectsHoverBars()
+            
+.blog
+    width: 100%
+    height: 100%
+    &__detail
+        width: 100%
+        height: 90vh
+        position: relative
+        z-index: -1
+        &--background
+            position: absolute
+            width: 100%
+            height: 100%
+            z-index: -1
+        &__post-meta
+            position: absolute
+            bottom: 0
+            width: 100%
+            height: 50%
+            padding: 0 2rem
+            background: rgba(246, 246, 246, 0.8)
+            &--title
+                font-weight: bolder
+            &__data
+                width: 100%
+                font-weight: bolder
+                &--autors
+                    line-height: 50px
+@media (min-width: 320px) and (max-width: 1023px)
+    .navbar__group
+        width: 100%

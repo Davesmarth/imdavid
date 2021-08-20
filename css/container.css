@@ -1,4 +1,6 @@
 @charset "UTF-8";
+@import url("https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap");
 * {
   font-family: 'Poppins', 'Gilroy', sans-serif;
   line-height: 1rem;
@@ -77,6 +79,12 @@ ul {
   margin-top: 1rem;
 }
 
+@media (min-width: 320px) and (max-width: 750px) {
+  .fa-chevron-down {
+    left: 50%;
+  }
+}
+
 .notices {
   position: absolute;
   top: 0;
@@ -121,7 +129,7 @@ ul {
   width: 100%;
   height: 100vh;
   padding: 0 15%;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[autofit];
@@ -474,6 +482,9 @@ ul {
 }
 
 @media (min-width: 320px) and (max-width: 750px) {
+  .container {
+    margin-top: 2rem;
+  }
   .container__home {
     text-align: left;
   }
@@ -490,7 +501,7 @@ ul {
   .container__blog__item {
     grid-column: span 2;
   }
-  .works {
+  #blog {
     -ms-grid-rows: 4rem 1fr;
         grid-template-rows: 4rem 1fr;
   }
@@ -548,7 +559,7 @@ ul {
     grid-column: span 2;
     margin-top: 2rem;
   }
-  .works {
+  #blog {
     -ms-grid-rows: 4rem 1fr;
         grid-template-rows: 4rem 1fr;
   }

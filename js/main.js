@@ -6,20 +6,23 @@ const mainNavbar = document.getElementById('collapse'),
     navContact = document.getElementById('navContact');
 document.addEventListener('click', (e) => {
     if (e.target.matches('#btnbars')) {
-        mainNavbar.classList.toggle('active');
+        navBarCollpsed();
     }
     if (e.target.matches('#navWork')) {
         navbarEffect(e.target);
-        closeNavBarCollpsed()
+        navBarCollpsed();
     }
     if (e.target.matches('#navAbout')) {
         navbarEffect(e.target);
+        navBarCollpsed();
     }
     if (e.target.matches('#navBlog')) {
         navbarEffect(e.target)
+        navBarCollpsed();
     }
     if (e.target.matches('#navContact')) {
         navbarEffect(e.target);
+        navBarCollpsed();
     }
     if(e.target.matches('.about__item--btn')){
         aboutCovering(e.target.id);
@@ -48,11 +51,11 @@ function aboutCovering(buttonId){
     const element = document.querySelector(`.${buttonId}`);
     element.classList.toggle('covered');
 }
-function closeNavBarCollpsed(){
-    mainNavbar.classList.remove('active');
+export default function navBarCollpsed(){
+    mainNavbar.classList.toggle('active');
 }
 
-tsParticles
+/* tsParticles
     .loadJSON("tsparticles", "./particles-config/particles.json")
     .then(container => container)
-    .catch(err => err);
+    .catch(err => err); */
