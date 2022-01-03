@@ -1,4 +1,5 @@
 @import './root'
+@import './container'
 
 @mixin iconBars()
     &__icon
@@ -134,6 +135,40 @@ time
                 font-weight: bolder
                 &--autors
                     line-height: 50px
+    &__body
+        width: 100%
+        padding: 0 2rem
+        margin: 2rem 0
+        display: flex
+        &__social
+            width: calc( 30% - 2rem )
+            margin-right: 2rem
+        &__content
+            color: $gray-text
+            p
+                line-height: 1.5rem
+                margin-bottom: 2rem
+            ul
+                margin: 2rem 0
+            li
+                margin: 1rem 0
+            li em a 
+                color: $second
+            h3
+                margin: 2rem 0
 @media (min-width: 320px) and (max-width: 1023px)
     .navbar__group
         width: 100%
+    .blog
+        &__detail
+            width: 100%
+            height: 80vh
+            &--background
+                height: 50%
+            &__post-meta
+                bottom: 30%
+        &__body
+            &__social
+                display: none
+    h1
+        font-size: 2rem
