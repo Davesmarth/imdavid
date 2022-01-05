@@ -33,6 +33,7 @@ body {
   overflow-x: hidden;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background: #f6f6f6;
 }
 
 ul {

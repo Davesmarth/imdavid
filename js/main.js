@@ -54,8 +54,7 @@ function aboutCovering(buttonId){
 export default function navBarCollpsed(){
     mainNavbar.classList.toggle('active');
 }
-
-/* tsParticles
+tsParticles
     .loadJSON("tsparticles", "./particles-config/particles.json")
     .then(container => container)
-    .catch(err => err); */
+    .catch(err => err); 

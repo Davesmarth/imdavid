@@ -36,6 +36,7 @@ body {
   overflow-x: hidden;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background: #f6f6f6;
 }
 
 ul {
@@ -326,6 +327,7 @@ body {
   overflow-x: hidden;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background: #f6f6f6;
 }
 
 ul {
@@ -620,6 +622,10 @@ ul {
   border-bottom: 2px solid #cfcfcf;
 }
 
+.contact__info__item--input:focus {
+  outline: none;
+}
+
 .contact__info__item--btn {
   width: 25%;
   height: 2.5rem;
@@ -797,6 +803,12 @@ ul {
     -ms-grid-rows: 4rem 1fr;
         grid-template-rows: 4rem 1fr;
   }
+  #works {
+    height: 200vh;
+  }
+  #about {
+    height: 200vh;
+  }
   .first {
     -ms-grid-row: 1;
     -ms-grid-row-span: 1;
@@ -854,6 +866,12 @@ ul {
   #blog {
     -ms-grid-rows: 4rem 1fr;
         grid-template-rows: 4rem 1fr;
+  }
+  #works {
+    height: 200vh;
+  }
+  #about {
+    height: 200vh;
   }
   .first {
     -ms-grid-row: 1;

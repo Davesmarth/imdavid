@@ -171,6 +171,10 @@
                 height: 3rem
                 border: none
                 border-bottom: 2px solid $shadow
+                &:focus
+                    outline: none
+                &:invalid
+                    border: 2px solid $second
             &--btn
                 width: 25%
                 height: 2.5rem
@@ -268,6 +272,12 @@
     
     #blog 
         grid-template-rows: 4rem 1fr
+
+    #works
+        height: 200vh
+    
+    #about
+        height: 200vh
     
     .first 
         grid-row: 1 / span 1
@@ -292,6 +302,7 @@
     .contact__info__form 
         grid-column: span 2
         margin-top: 2rem
+    
     
 
 
@@ -319,6 +330,12 @@
     #blog 
         grid-template-rows: 4rem 1fr
     
+    #works
+        height: 200vh
+    
+    #about
+        height: 200vh
+
     .first 
         grid-row: 1 / span 2
         grid-column: span 1
